@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : 
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Shounak Shastri"
   avatar           : "profile.png"
-  bio              : "Currently working on developing Dual Steganography Algorithms"
+  bio              : "Ph.D. Research Scholar working on developing Dual Steganography Algorithms"
   location         : "Vellore, TN, IN"
   employer         :
   pubmed           :

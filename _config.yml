@@ -89,33 +89,14 @@ author:
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=nclnF98AAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
   facebook         :
   foursquare       :
   github           : "/shounakshastri"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : "/shounak-shastri/"
+  linkedin         : "www.linkedin.com/in/shounak-shastri"
   orcid            : "https://orcid.org/0000-0002-2247-9046"
-  pinterest        :
-  soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-
+  
 
 # Reading Files
 include:

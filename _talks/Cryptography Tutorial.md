@@ -8,4 +8,4 @@ date: 2012-03-01
 location: "Vellore, Tamil Nadu"
 ---
 
-Adjust the file in _talks folder
+This talk was presented to 2<sup>nd</sup> and 3<sup>rd</sup> year engineering students. The talk was hosted by the local IEEE chapter and streamed on Facebook. It gave a short introduction to the field of cryptography. 

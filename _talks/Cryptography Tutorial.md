@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/Cryptography Tutorial
 venue: "VIT, Vellore"
-date: 2012-03-01
+date: 2018-02-24
 location: "Vellore, Tamil Nadu"
 ---
 

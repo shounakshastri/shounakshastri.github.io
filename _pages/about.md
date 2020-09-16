@@ -9,11 +9,11 @@ redirect_from:
 ---
 
 About Me
-=====
+===
 
-I am a researcher working towards a PhD at VIT Vellore. My work mostly revolves around analysing and developing new steganography and watermarking schemes. I have submitted my thesis and am waiting for the reviewer comments. I am currently looking for jobs which need Research & Development (R&D) skills in the fields of Machine Learning (ML), Deep Learning (DL), Data Science and Artificial Intelligence (AI). 
+I am a PhD Researcher at VIT Vellore. My work mostly revolved around analysing and developing new steganography and watermarking schemes. I have submitted my thesis and am waiting for the reviewer comments. I am currently looking for jobs which need Research & Development (R&D) skills in the fields of Machine Learning (ML), Deep Learning (DL), Data Science and Artificial Intelligence (AI). 
 
-I like cats and I am currently taking care of a stray which came to our house and did not leave. You can contact me on any of the platforms on the sidepanel for photos or to give advice on how to take care of cats.
+I also like cats and I am currently taking care of a stray which came to our house and did not leave. You can contact me on any of the platforms on the sidepanel for photos or to give advice on how to take care of cats.
 
 What did I do in my PhD?
 ===

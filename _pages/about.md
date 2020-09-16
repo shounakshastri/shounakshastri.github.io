@@ -7,12 +7,36 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Write what you want here in the about.md file in the _pages folder...
 
 About Me
 =====
 
-I am a researcher working towards a PhD at VIT Vellore. My work mostly revolves around analysing and developing new steganography and watermarking schemes.  
+I am a researcher working towards a PhD at VIT Vellore. My work mostly revolves around analysing and developing new steganography and watermarking schemes. I have submitted my thesis and am waiting for the reviewer comments. I am currently looking for jobs which need Research & Development (R&D) skills in the fields of Machine Learning (ML), Deep Learning (DL), Data Science and Artificial Intelligence (AI). 
+
+I like cats and I am currently taking care of a stray which came to our house and did not leave. You can contact me on any of the platforms on the sidepanel for photos or to give advice on how to take care of cats.
+
+What did I do in my PhD?
+===
+I analysed steganography algorithms, specifically Reversible Data Hiding (RDH) schemes and devised a new scheme which can hide data in image files. I will be putting up more details about my work in the blogs section of this website.
+
+In the meanwhile, you can check my publications through my [ORCID page](https://orcid.org/0000-0002-2247-9046).
+
+
+What am I doing now?
+=====
+
+Well...
+- Learning and relearning stuff related to ML and DL. (I will shortly have some projects up and running and I will put up the documentation here. Stay tuned.)
+
+- Applying for jobs in R&D, preferably in the ML/DL/AI space. (No success yet. <sub>Remember the first ideal of the Knight Radients "journey before destination" 😥</sub>)
+
+- Teaching myself to paint with watercolours. (No progress to show here either, I am terrible at this)
+
+- ~~Trying to cope with my lockdown hair.~~ I love my hair and I love how chaotic it is. Please stop shedding. 
+
+- Reading books. (I have completed 17/20 books pledged for the Goodreads 2020 Reading Challenge. Thank you lockdown!)
+
+- Cat
 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 

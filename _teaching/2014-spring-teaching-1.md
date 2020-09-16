@@ -1,20 +1,10 @@
 ---
-title: "Teaching experience 1"
+title: "Teaching Experience (Undergraduate Theory and Lab Courses)"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
+type: "Undergraduate courses"
+permalink: /teaching/TE1
+venue: "VIT Vellore, School of Electronics Engineering"
 date: 2014-01-01
-location: "City, Country"
+location: "Vellore, TN, India."
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======

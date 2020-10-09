@@ -2,7 +2,7 @@
 title: "Teaching Experience (Undergraduate and graduate projects)"
 collection: teaching
 type: "Undergraduate and Post-graduate projects"
-permalink: /teaching/TE2
+permalink: /teaching/Teaching Experience (Undergraduate and graduate projects)
 venue: "VIT Vellore, School of Electronics Engineering"
 date: 2020-01-04
 location: "Vellore, TN, India."

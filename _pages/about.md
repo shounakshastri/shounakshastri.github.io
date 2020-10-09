@@ -11,14 +11,15 @@ redirect_from:
 About Me
 ===
 
-I am a PhD Researcher at VIT Vellore. My work mostly revolved around analysing and developing new steganography and watermarking schemes. I have submitted my thesis and am waiting for the reviewer comments. I am currently looking for jobs which need Research & Development (R&D) skills in the fields of Machine Learning (ML), Deep Learning (DL), Data Science and Artificial Intelligence (AI). 
+I am a PhD Researcher at VIT Vellore. My work mostly revolved around analysing and developing new steganography and watermarking schemes. My specilization is in the areas of Information Security (cryptography and steganography), Image Processing and Computer Vision. I have submitted my thesis and am waiting for the reviewers to give their comments. I am currently looking for jobs which need Research & Development (R&D) skills in the fields of Machine Learning (ML), Deep Learning (DL), Data Science and Artificial Intelligence (AI). 
 
 I also like cats and I am currently taking care of a stray which came to our house and did not leave. You can contact me on any of the platforms on the sidepanel for photos or to give advice on how to take care of cats.
 
-What did I do in my PhD?
+What did I do during my PhD?
 ===
-I analysed steganography algorithms, specifically Reversible Data Hiding (RDH) schemes and devised a new scheme which can hide data in image files. I will be putting up more details about my work in the blogs section of this website.
+I analysed steganography algorithms, specifically Reversible Data Hiding (RDH) schemes and devised a new technique to hide secret data in image files. I will be putting up more details about my work in the blogs section of this website.
 
+I also served as a Teaching and Research Assistant for 4 years where I helped various faculties with setting up their  
 In the meanwhile, you can check my publications through my [ORCID page](https://orcid.org/0000-0002-2247-9046).
 
 
@@ -32,9 +33,9 @@ Well...
 
 - Teaching myself to paint with watercolours. (No progress to show here either, I am terrible at this)
 
-- ~~Trying to cope with my lockdown hair.~~ I love my hair and I love how chaotic it is. Please stop shedding. 
+- ~~Trying to cope with my lockdown hair.~~ I love my hair. Please stop shedding. 
 
-- Reading books. (I have completed 17/20 books pledged for the Goodreads 2020 Reading Challenge. Thank you lockdown!)
+- Reading books. (I have completed 21/20 books pledged for the Goodreads 2020 Reading Challenge. Thank you lockdown!)
 
 - Cat
 

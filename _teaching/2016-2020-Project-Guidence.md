@@ -1,9 +1,9 @@
 ---
-title: "Handling and guiding projects"
+title: "Teaching Experience (Undergraduate and graduate projects)"
 collection: teaching
 type: "Undergraduate and Post-graduate projects"
-permalink: /teaching/2016-2020-Project-Guidence
-venue:"VIT Vellore, School of Electronics Engineering"
+permalink: /teaching/TE2
+venue: "VIT Vellore, School of Electronics Engineering"
 date: 2020-01-04
 location: "Vellore, TN, India."
 ---

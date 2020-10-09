@@ -2,7 +2,7 @@
 title: "Handling and guiding projects"
 collection: teaching
 type: "Undergraduate and Post-graduate projects"
-permalink: /teaching/2016-2020_Project_Guidence
+permalink: /teaching/2016-2020-Project-Guidence.md
 venue:"VIT Vellore, School of Electronics Engineering"
 date: 2020-01-04
 location: "Vellore, TN, India."

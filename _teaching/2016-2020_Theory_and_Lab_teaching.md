@@ -8,6 +8,8 @@ date: 2020-01-04
 location: "Vellore, TN, India."
 ---
 
+My responsibilities as a Teaching and Research Assistant included helping the faculties and laboratory staff with their teaching.
+
 ### I have handled/assisted in the following courses during my Assistantship (Jan. 2016 - Jan. 2020)
 
 1. Analog Communication Systems (Theory and Lab classes)

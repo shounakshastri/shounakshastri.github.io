@@ -2,7 +2,7 @@
 title: "Handling and guiding projects"
 collection: teaching
 type: "Undergraduate and Post-graduate projects"
-permalink: /teaching/2016-2020-Project-Guidence.md
+permalink: /teaching/2016-2020_Project_Guidence
 venue:"VIT Vellore, School of Electronics Engineering"
 date: 2020-01-04
 location: "Vellore, TN, India."
@@ -15,5 +15,5 @@ I have guided more than 30 students with their projects by
 - Helping them understand the tehnical literature.
 - Helping them with the code.
 - Keeping them on schedule so that they were able to present their project in front of the review panel.
-- Helping the students with submissions to national level conferences
+- Helping the students with submissions to national conferences
  

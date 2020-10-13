@@ -9,6 +9,9 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
+  - title: "NLP"
+    url: /NLP/
+
   - title: "Portfolio"
     url: /portfolio/
         
@@ -20,6 +23,3 @@ main:
     
   - title: "Guide"
     url: /markdown/
-
-  - title: "NLP"
-    url: /NLP/

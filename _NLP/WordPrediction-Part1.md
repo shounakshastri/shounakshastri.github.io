@@ -88,7 +88,9 @@ R has a pretty solid deployment offering in the form of [Shiny](https://www.anal
 
 <img src = "ShinyAppLayout.png" alt = "Basic App Layout" width=70%>
 
-![Basic App Layout](/images/ShinyAppLayout.png =100x20)
+![Basic App Layout](/images/ShinyAppLayout.png)
+
+![Basic App Layout](ShinyAppLayout.png)
 
 ---
 Now that we have laid out the plan, we can move on to writing the code and creating the model.

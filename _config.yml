@@ -166,6 +166,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  NLP:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -213,7 +216,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: true
   # _talks
   - scope:
       path: ""
@@ -222,6 +225,16 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _NLP
+  - scope:
+      path: ""
+      type: NLP
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+
 
 # Sass/SCSS
 sass:

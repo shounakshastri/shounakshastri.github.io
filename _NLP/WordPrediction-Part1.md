@@ -86,11 +86,7 @@ To avoid this, we would only keep the n-grams which occur more than a certain nu
 
 R has a pretty solid deployment offering in the form of [Shiny](https://www.analyticsvidhya.com/blog/2016/10/creating-interactive-data-visualization-using-shiny-app-in-r-with-examples/). It can be used to deploy a simple app on web without the knowledge of HTML, CSS or Javascript for free. This means we are fine as long as we know R. The app can be reactive i.e. the next word can be displayed without the need of pressing a button or creating a distinct event. This would make the app easy to use. The basic design can be as shown in the figure below.
 
-<img src = "ShinyAppLayout.png" alt = "Basic App Layout" width=70%>
-
-![Basic App Layout](/images/ShinyAppLayout.png)
-
-![Basic App Layout](ShinyAppLayout.png)
+![Basic App Layout](/images/ShinyAppLayout.png =300x500)
 
 ---
 Now that we have laid out the plan, we can move on to writing the code and creating the model.

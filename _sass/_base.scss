@@ -132,6 +132,19 @@
     overflow-x: auto; /* add scrollbars to wide code blocks*/
     }
   
+  pre code {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    display: block;
+    font-size: 1.6em;
+    line-height: 1.1em;
+    background-color: $code-background-color;
+    overflow: auto;
+    border: 1px solid $lighter-gray;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    word-wrap: normal;
+    }
   
   p > code,
   a > code,
@@ -314,3 +327,5 @@
     -webkit-transition: $global-transition;
     transition: $global-transition;
   }
+
+  

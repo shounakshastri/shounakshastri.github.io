@@ -90,7 +90,7 @@ Now by looking at the blogs, news and tweets, we can say that out of the three f
 
 First, let's check the memory utilization by the individual files in order to get some perspective about the space requirements. We will also run the garbage collector using `gc()` everytime we remove some big variables to free up some space for R. .
 
-```r
+<code class="codeblock">
 blogsMem <- object.size(blogs)
 format(blogsMem, units = "MB", standard = "legacy")
 
@@ -105,7 +105,7 @@ format(totalMem, units = "MB", standard = "legacy")
 
 rm(blogsMem, newsMem, tweetsMem, totalMem)
 gc() # Garbage Collector
-```
+</code>
 
 
 ```

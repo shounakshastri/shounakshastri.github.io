@@ -130,8 +130,9 @@
   
   pre > code {
     overflow-x: auto; /* add scrollbars to wide code blocks*/
+    background: $light-gray;
     }
-  }
+  
   
   p > code,
   a > code,

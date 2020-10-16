@@ -160,7 +160,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  Steganography:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -208,13 +208,14 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _Steganography
   - scope:
       path: ""
-      type: portfolio
+      type: Steganography
     values:
       layout: single
       author_profile: true
+      read_time: true
       share: true
       comments: true
   # _talks

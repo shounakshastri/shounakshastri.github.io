@@ -37,7 +37,7 @@ I have already downloaded the corpus while testing. So, here we will directly im
 First we read the data into separate variables and close the connections to save memory.
 
 
-<pre>
+```r
 # Import all the files and open the connection
 fileBlogs <- file(".\\final\\en_US\\en_US.blogs.txt", "rb")
 fileNews <- file(".\\final\\en_US\\en_US.news.txt", "rb")
@@ -55,7 +55,7 @@ rm( fileNews)
 tweets <- readLines(fileTweets, encoding = "UTF-8", skipNul = TRUE)
 close(fileTweets)
 rm(fileTweets)
-</pre>
+```
 
 
 Let's see what the data looks like. We will print the first 3 rows from all three files. I ran this code in RStudio, so I can see the length of `blogs`, `news` and `tweets` directly in the environment tab. But, in case you do not have access to the environment tab, `length()` would work just fine. 
@@ -90,7 +90,7 @@ Now by looking at the blogs, news and tweets, we can say that out of the three f
 
 First, let's check the memory utilization by the individual files in order to get some perspective about the space requirements. We will also run the garbage collector using `gc()` everytime we remove some big variables to free up some space for R. .
 
-<code class="codeblock">
+```r
 blogsMem <- object.size(blogs)
 format(blogsMem, units = "MB", standard = "legacy")
 
@@ -105,7 +105,7 @@ format(totalMem, units = "MB", standard = "legacy")
 
 rm(blogsMem, newsMem, tweetsMem, totalMem)
 gc() # Garbage Collector
-</code>
+```
 
 
 ```

@@ -2,7 +2,7 @@
 title: "Dual Image Reversible Data Hiding Using Rhombus Prediction"
 collection: publications
 permalink: /publication/Dual Image Reversible Data Hiding Using Rhombus Prediction
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
+excerpt: 'This paper is a small work which converts a normal single image RDH algorithm to a dual image RDH algorithm'
 date: 2019-11-14
 venue: '2019 International Conference on Vision Towards Emerging Trends in Communication and Networking (ViTECoN)'
 paperurl: 'https://ieeexplore.ieee.org/document/8899667'

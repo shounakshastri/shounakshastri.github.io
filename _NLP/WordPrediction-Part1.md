@@ -11,11 +11,11 @@ tags:
 date: 2020-10-13
 ---
 
-This post marks the start of a series which builds a basic word prediction model using R. The series would be divided into 5 parts as follows:
+This post is the first a series where we build a basic word prediction model using R. Here we will do some planning about how we want our project to proceed, setting up our goals and expectations. The series would be divided into 5 parts as given below:
 
 Part 1 - Figuring out the problem at hand
 
-Part 2 - Exploring the dataset 
+[Part 2 - Exploring the dataset](https://shounakshastri.github.io/NLP/Word%20Prediction%20Model%20-%20PART%202%20-%20Exploratory%20Data%20Analysis)
 
 Part 3 - Creating the model
 
@@ -86,9 +86,9 @@ To avoid this, we would only keep the n-grams which occur more than a certain nu
 
 R has a pretty solid deployment offering in the form of [Shiny](https://www.analyticsvidhya.com/blog/2016/10/creating-interactive-data-visualization-using-shiny-app-in-r-with-examples/). It can be used to deploy a simple app on web without the knowledge of HTML, CSS or Javascript for free. This means we are fine as long as we know R. The app can be reactive i.e. the next word can be displayed without the need of pressing a button or creating a distinct event. This would make the app easy to use. The basic design can be as shown in the figure below.
 
-![Basic App Layout](/images/ShinyAppLayout.png)
+![Basic App Layout](/images/ShinyAppLayout.jpg)
 
 ---
 Now that we have laid out the plan, we can move on to writing the code and creating the model.
 
-Let's move on to PART 2 where we will start creating the model.
+In [PART 2](https://shounakshastri.github.io/NLP/Word%20Prediction%20Model%20-%20PART%202%20-%20Exploratory%20Data%20Analysis) we will do a small exploratory analysis of our data and try to understand where we might run into problems like hardware bottlenecks, storage issues, etc.

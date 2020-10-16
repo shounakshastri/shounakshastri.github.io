@@ -12,6 +12,18 @@ tags:
 date: 2020-10-15
 ---
 
+This is the second post in a series which builds a basic word prediction model using R. We will be doing some basic EDA and figure out where we might run into problems during the modelling and deployment stages. Given below are the links to all the parts in the series:
+
+[Part 1 - Figuring out the problem at hand](https://shounakshastri.github.io/NLP/Word%20Prediction%20Model%20-%20PART%201%20-%20Figuring%20out%20the%20problem%20at%20hand)
+
+Part 2 - Exploring the dataset 
+
+Part 3 - Creating the model
+
+Part 4 - Deploying the model
+
+Part 5 - Conclusion and future scope for improvement
+
 ## Introduction
 
 This report summarizes the Exploratory Data Analysis performed on a text dataset. I have used the Swiftkey dataset containing blogs, news articles and tweets in this exercise. But, any corpus containing articles, messages or posts can be used here. The steps would be similar.

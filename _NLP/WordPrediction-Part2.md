@@ -37,25 +37,25 @@ I have already downloaded the corpus while testing. So, here we will directly im
 First we read the data into separate variables and close the connections to save memory.
 
 
-```r
-# Import all the files and open the connection
-fileBlogs <- file(".\\final\\en_US\\en_US.blogs.txt", "rb")
-fileNews <- file(".\\final\\en_US\\en_US.news.txt", "rb")
-fileTweets <- file(".\\final\\en_US\\en_US.twitter.txt", "rb")
 
-# Read the lines and close the connections
-blogs <- readLines(fileBlogs, encoding = "UTF-8", skipNul = TRUE)
-close(fileBlogs)
-rm(fileBlogs)
+    # Import all the files and open the connection
+    fileBlogs <- file(".\\final\\en_US\\en_US.blogs.txt", "rb")
+    fileNews <- file(".\\final\\en_US\\en_US.news.txt", "rb")
+    fileTweets <- file(".\\final\\en_US\\en_US.twitter.txt", "rb")
 
-news <- readLines(fileNews, encoding = "UTF-8", skipNul = TRUE)
-close(fileNews)
-rm( fileNews)
+    # Read the lines and close the connections
+    blogs <- readLines(fileBlogs, encoding = "UTF-8", skipNul = TRUE)
+    close(fileBlogs)
+    rm(fileBlogs)
 
-tweets <- readLines(fileTweets, encoding = "UTF-8", skipNul = TRUE)
-close(fileTweets)
-rm(fileTweets)
-```
+    news <- readLines(fileNews, encoding = "UTF-8", skipNul = TRUE)
+    close(fileNews)
+    rm( fileNews)
+
+    tweets <- readLines(fileTweets, encoding = "UTF-8", skipNul = TRUE)
+    close(fileTweets)
+    rm(fileTweets)
+
 
 
 Let's see what the data looks like. We will print the first 3 rows from all three files. I ran this code in RStudio, so I can see the length of `blogs`, `news` and `tweets` directly in the environment tab. But, in case you do not have access to the environment tab, `length()` would work just fine. 

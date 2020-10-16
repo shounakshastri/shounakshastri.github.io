@@ -128,9 +128,8 @@
     font-family: $monospace;
   }
   
-  pre > code {
+  pre {
     overflow-x: auto; /* add scrollbars to wide code blocks*/
-    background: $light-gray;
     }
   
   

@@ -97,7 +97,7 @@ format(blogsMem, units = "MB", standard = "legacy")
 newsMem <- object.size(news)
 format(newsMem, units = "MB", standard = "legacy")
 
-tweetsMem <- object.size(tweets)
+twetsMem <- object.size(tweets)
 format(tweetsMem, units = "MB", standard = "legacy")
 
 totalMem <- blogsMem + newsMem + tweetsMem

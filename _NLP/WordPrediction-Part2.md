@@ -37,7 +37,7 @@ I have already downloaded the corpus while testing. So, here we will directly im
 First we read the data into separate variables and close the connections to save memory.
 
 
-```r
+<pre>
 # Import all the files and open the connection
 fileBlogs <- file(".\\final\\en_US\\en_US.blogs.txt", "rb")
 fileNews <- file(".\\final\\en_US\\en_US.news.txt", "rb")
@@ -55,18 +55,18 @@ rm( fileNews)
 tweets <- readLines(fileTweets, encoding = "UTF-8", skipNul = TRUE)
 close(fileTweets)
 rm(fileTweets)
-```
+</pre>
 
 
 Let's see what the data looks like. We will print the first 3 rows from all three files. I ran this code in RStudio, so I can see the length of `blogs`, `news` and `tweets` directly in the environment tab. But, in case you do not have access to the environment tab, `length()` would work just fine. 
 
 ### Blogs
 
-```
+<pre>
 ## [1] "In the years thereafter, most of the Oil fields and platforms were named after pagan “gods”."                                                           
 ## [2] "We love you Mr. Brown."                                                     
 ## [3] "Chad has been awesome with the kids and holding down the fort while I work later than usual! The kids have been busy together playing Skylander on the XBox together, after Kyan cashed in his $$$ from his piggy bank. He wanted that game so bad and used his gift card from his birthday he has been saving and the money to get it (he never taps into that thing either, that is how we know he wanted it so bad). We made him count all of his money to make sure that he had enough! It was very cute to watch his reaction when he realized he did! He also does a very good job of letting Lola feel like she is playing too, by letting her switch out the characters! She loves it almost as much as him."
-```
+</pre>
 
 ### News
 

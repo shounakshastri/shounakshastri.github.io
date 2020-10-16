@@ -132,7 +132,7 @@
     overflow-x: auto; /* add scrollbars to wide code blocks*/
     padding-top: 0.1rem;
     padding-bottom: 0.1rem;
-    font-size: $type-size-6;
+    font-size: $type-size-2;
     background: $code-background-color;
     border: 1px solid $lighter-gray;
     border-radius: $border-radius;
@@ -141,6 +141,7 @@
     &:before, &:after {
       letter-spacing: -0.2em;
       content: "\00a0"; /* non-breaking space*/
+    }
   }
   
   p > code,

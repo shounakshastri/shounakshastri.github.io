@@ -3,7 +3,7 @@ title: "Tutorial on Basic Cryptography Techniques"
 collection: talks
 type: "Talk"
 permalink: /talks/Cryptography Tutorial
-venue: "VIT, Vellore"
+venue: "VIT Vellore"
 date: 2018-02-24
 location: "Vellore, Tamil Nadu"
 ---

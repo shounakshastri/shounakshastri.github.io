@@ -18,18 +18,32 @@ Education
 Work experience
 ======
 * Teaching and Research Assistant (Jan. 2016 - Jan. 2020) in School of Electronics Engineering, VIT Vellore.
-  * Duties included: Tagging issues
-  * Supervisor: Prof. Thanikaiselvan V.
+  * Supervisor: [Prof. Thanikaiselvan V.](https://scholar.google.co.in/citations?user=IIMHz3SEEqAC&hl=en)
   
 Skills
 ======
+* Research and Development
+* Information Security
+* Cryptography
+* Steganography
 * Image Processing
 * Computer Vision
+* Natural Language Processing
 * Machine Learning
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Deep Learning
+* Data Science
+
+
+Programming Languages
+======
+* Matlab
+* R
+* Python
+  * Pandas
+  * Numpy
+  * ScikitLearn
+  * Matplotlib
+  * Seaborn
 
 Publications
 ======

@@ -14,15 +14,11 @@ date: 2020-10-15
 
 ## Introduction
 
-> "This is some spy s***!!!"
->               - A Clash of Clans clanmate
+<q> "This is some spy s***!!!"
+              - A Clash of Clans clanmate</q>
 
-This is usually the reaction when I tell people about Steganography. The younger ones atleast. The older people usually say "Well, thats all fine and dandy. But, what are you going to do with this?". Thus, Steganography tends to generate two extreme opinions, 
 
-1. that it's cool 
-2. this person has wasted 5 years of his life
-
-So, Steganography is used to <span style='color:green'>_hide_</span> data in some other data. Now, in order to understand Steganography, it is important to understand why we hide stuff? Well, mostly because we want the said stuff to be safe from others as people might take it or tamper it or even worse, tell everybody else about it. Now, we can hide stacks of cash in a mattress or a can of paint, but what if your stuff is not a stack of cash? What if your stuff is more...incorporeal?
+Steganography is used to <span style='color:green'>_hide_</span> data in some other data. Now, in order to understand Steganography, it is important to understand why we hide stuff? Well, mostly because we want the said stuff to be safe from others as people might take it or tamper it or even worse, tell everybody else about it. Now, we can hide stacks of cash in a mattress or a can of paint, but what if your stuff is not a stack of cash? What if your stuff is more...incorporeal?
 
 ...
 
@@ -47,5 +43,9 @@ The file which contains the hidden secret data is called the *Stego file*
 
 Mathematically speaking, if 
 
-When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+In N-dimensional simplex noise, the squared kernel summation radius $r^2$ is $\frac 1 2$
+for all values of N. This is because the edge length of the N-simplex $s = \sqrt {\frac {N} {N + 1}}$
+divides out of the N-simplex height $h = s \sqrt {\frac {N + 1} {2N}}$.
+The kerel summation radius $r$ is equal to the N-simplex height $h$.
+
+$$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}} $$

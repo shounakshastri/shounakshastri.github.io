@@ -65,7 +65,7 @@ Images, as mentioned before, contain some inherent redundancies. This coupled wi
 
 It should be noted that stego images, being the carriers of secret data, should not invoke attention of entities which would potentially be looking for the secret data. This is where encryption fails. It practically shouts that a something confidential is stored or being transfered as can be seen from the images below.
 
-![Stego Image](/images/stego_coloured.jpg)
+![Stego Image](/images/stego_coloured.jpg){:height="50%" width="50%"}
 
 ![Encrypted Data](/images/encrypted_image.jpg)
 

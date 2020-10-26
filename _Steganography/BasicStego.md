@@ -24,13 +24,13 @@ Steganography is used to <span style='color:green'>_hide_</span> data in some ot
 
 *No I am not talking about your feelings!*
 
-Digital stuff! I am taling about digital data! 
+Digital stuff! I am talking about digital data! 
 
 What if your stuff is _digital_? Hiding your data or files by creating a bunch of folders in a flash drive kept in your drawer might seem easy, but if someone gets the flash drive, a simple search query would give the location of the data. We need something more sophisticated than this.
 
 Enter Steganography.
 
-Steganography hides digital data in other files. This makes it way more difficult to find hidden data. This can be used to hide secret military information like serveillance data in, or medical records, legal details, the possibilities are ever increasing.
+Steganography hides digital data in other files. This makes it way more difficult to find hidden data. This can be used to hide and share secret information such as military and serveillance data, medical records, legal details, the possibilities are ever increasing.
 
 ## Cover and stego files
 
@@ -41,11 +41,12 @@ By now, it should be clear that Steganography needs two files.
 
 The file which contains the hidden secret data is called the *Stego file*
 
-Mathematically speaking, if 
+Mathematically speaking, if $Emb()$ is your embedding algorithm which helps you embed/hide data in a cover file, then 
 
-In N-dimensional simplex noise, the squared kernel summation radius $r^2$ is $\frac 1 2$
-for all values of N. This is because the edge length of the N-simplex $s = \sqrt {\frac {N} {N + 1}}$
-divides out of the N-simplex height $h = s \sqrt {\frac {N + 1} {2N}}$.
-The kerel summation radius $r$ is equal to the N-simplex height $h$.
+$$ stego_file = Emb(secret_data, cover_file, key)$$
 
-$$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}} $$
+where S is the Stego file, and key is the password/auxiliary data required to recover the hidden secret data. The key is usually a biproduct of the embedding process and it's use would be clearer in the upcoming sections.
+
+Similarly, the hidden data can be recovered using an extraction algorithm $Ext()$ given as
+
+$$ secret_data = Ext(stego_file, key)$$

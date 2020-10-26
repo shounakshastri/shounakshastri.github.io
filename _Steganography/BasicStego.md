@@ -63,11 +63,13 @@ Images, as mentioned before, contain some inherent redundancies. This coupled wi
 
 ### Regarding the quality of stego images
 
-It should be noted that stego images, being the carriers of secret data, should not invoke attention of entities which would potentially be looking for the secret data. This is where encryption fails. It practically shouts that a something confidential is stored or being transfered as can be seen from the images below.
+It should be noted that stego images, being the carriers of secret data, should not invoke attention of entities which would potentially be looking for the secret data. This is where encryption fails. You can see from the images below that encrypted data/images practically shout that something confidential is being stored or transferred. This attracts hackers who basically take decrypting the data as a challenge. Steganography avoids this by producing high quality images that don't raise any suspicion.
 
-![Stego Image](/images/stego_coloured.jpg){:height="50%" width="50%"} - Stego Image
+![Stego Image](/images/stego_coloured.jpg){:height="35%" width="35%"} - Stego Image
 
 ![Encrypted Data](/images/encrypted_image.jpg) - Encrypted Data
+
+From the above discussion, we can gather that an encryption technique is "broken" when the hacker decrypts the data. But Steganography, due to its nature, is broken when the hacker knows for sure that some data is being hidden or transferred because it failed to pass unnoticed. This is a very important differentiation between Cryptography and Steganography. 
 
 There are several metrics which can be used to check the quality of the stego image, but we will reserve them for a different post. 
 
@@ -103,4 +105,4 @@ Higher LSB planes can be used if the size of the secret data is more. The secret
 
 ### Histogram shifting
 
-In histogram shifting, the cover image histogram is analysed and bins which contain peaks and zeros are separated. The histogram between a peak and a zero is shifted to create space for embedding secret data. How?
+In histogram shifting, the cover image histogram is analysed and bins which contain peaks and zeros are separated. The histogram between a peak and a zero is shifted to create space for embedding secret data. How? We first scan the histogram of the cover image for the highest peak and the closest zero bin. Then change all the values of the pixels between the peak and the zero by 1 so that the histogram shifts. Now the bin which was a peak is empty. 

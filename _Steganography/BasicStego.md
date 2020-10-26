@@ -43,10 +43,10 @@ The file which contains the hidden secret data is called the *Stego file*
 
 Mathematically speaking, if $Emb()$ is your embedding algorithm which helps you embed/hide data in a cover file, then 
 
-$$ stego_file = Emb(secret_data, cover_file, key)$$
+$$ stegoFile = Emb(secretData, coverFile, key)$$
 
 where S is the Stego file, and key is the password/auxiliary data required to recover the hidden secret data. The key is usually a biproduct of the embedding process and it's use would be clearer in the upcoming sections.
 
 Similarly, the hidden data can be recovered using an extraction algorithm $Ext()$ given as
 
-$$ secret_data = Ext(stego_file, key)$$
+$$ secretData = Ext(stegoFile, key)$$

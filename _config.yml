@@ -166,6 +166,9 @@ collections:
   NLP:
     output: true
     permalink: /:collection/:path/
+  Steganography:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -206,6 +209,16 @@ defaults:
   - scope:
       path: ""
       type: NLP
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      comments: true
+  # _Steganography
+  - scope:
+      path: ""
+      type: Steganography
     values:
       layout: single
       author_profile: true

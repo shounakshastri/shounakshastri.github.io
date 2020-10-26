@@ -160,9 +160,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  Steganography:
-    output: true
-    permalink: /:collection/:path/
   talks:
     output: true
     permalink: /:collection/:path/
@@ -195,16 +192,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
-  # _Steganography
-  - scope:
-      path: ""
-      type: Steganography
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
       share: true
       comments: true
   # _talks

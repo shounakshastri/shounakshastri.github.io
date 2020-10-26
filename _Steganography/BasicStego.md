@@ -18,7 +18,7 @@ date: 2020-10-15
 ## Introduction
 
 
-Steganography is used to <span style='color:green'>_hide_</span> data in some other data. Now, in order to understand Steganography, it is important to understand why we hide stuff? Well, mostly because we want the said stuff to be safe from others as people might take it or tamper it or even worse, tell everybody else about it. Now, we can hide stacks of cash in a mattress or a can of paint, but what if your stuff is not a stack of cash? What if your stuff is more...incorporeal?
+Steganography is used to <span style='color:green'>_hide_</span> data in some other data. Now, in order to understand Steganography, it is important to understand why we hide stuff? Well, we mostly hide stuff because we want it to be safe from others as people might take it or tamper it or even worse, tell everybody else about it. Now, we can hide stacks of cash in a mattress or a can of paint, but what if your stuff is not a stack of cash? What if your stuff is more...incorporeal?
 
 ...
 
@@ -26,13 +26,13 @@ Steganography is used to <span style='color:green'>_hide_</span> data in some ot
 
 Digital stuff! I am talking about digital data! 
 
-What if your stuff is _digital_? Hiding your data or files by creating a bunch of folders in a flash drive kept in your drawer might seem easy, but if someone gets the flash drive, a simple search query would give the location of the data. We need something more sophisticated than this.
+What if your stuff is _digital_? Hiding your data or files by creating a bunch of folders in a flash drive kept in your drawer might seem easy, but if someone gets the flash drive, a simple search query would reveal the location of the data. We need something more sophisticated than this.
 
 Enter Steganography.
 
-Steganography hides digital data in other files. This makes it way more difficult to find hidden data. This can be used to hide and share secret information such as military and serveillance data, medical records, legal details, the possibilities are ever increasing.
+Steganography hides digital data in other files. This makes it way more difficult to find hidden data. This can be used to hide and share secret information such as watermarks, military and surveillance data, medical records, legal details, the possibilities are ever increasing. 
 
-In this post, we will be using Images as cover files. This is because images are known to have redundancies which can be used to hide secret data.
+In this post, we will be using images as the host files to hide secret data. This is because images are known to have redundancies which can be used to hide our secret data.
 
 ## Cover and stego files
 
@@ -43,7 +43,7 @@ By now, it should be clear that Steganography needs two files.
 
 The file which contains the hidden secret data is called the *Stego file*
 
-Mathematically speaking, if $Emb()$ is your embedding algorithm which helps you embed/hide data in a cover file, then 
+In more formal terms, if $Emb()$ is your embedding algorithm which helps you embed/hide data in a cover file, then 
 
 $$ stegoFile = Emb(secretData, coverFile, key)$$
 
@@ -55,17 +55,17 @@ $$ secretData = Ext(stegoFile, key)$$
 
 So in short,
 
-$$ secretData = Ext(stegoFile = Emb(secretData, coverFile, key), key)$$
+$$ secretData = Ext(Emb(secretData, coverFile, key), key)$$
 
 ## How to hide data in the cover files?
 
-Images, as mentioned before, contain some inherent redundancies. Coupled this with the way the Human Visual System works, makes images great to be used as cover files. Usually, a change of about 20 in pixel values is not noticable to humans. Thus, replacing the LSBs of pixels is a great way to hide secret data without really affecting the quality of the stgo image.
+Images, as mentioned before, contain some inherent redundancies. This coupled with the way the Human Visual System works, makes images great to be used as cover files. Usually, a change of about 20 pixel values is not noticable to humans. Thus, replacing the LSBs of pixels is a great way to hide secret data without really affecting the visual quality of the stgo image.
 
 ### Regarding the quality of stego images
 
 It should be noted that stego images, being the carriers of secret data, should not invoke attention of entities which would potentially be looking for the secret data. This is where encryption fails. It practically shouts that a something confidential is stored or being transfered as can be seen from the images below.
 
-![Stego Image](/images/stego_coloured.tif) ![Encrypted Data](/images/encrypted_image.tif)
+![Stego Image](/images/stego_coloured.jpg) ![Encrypted Data](/images/encrypted_image.jpg)
 
 There are several metrics which can be used to check the quality of the stego image, but we will reserve them for a different post. 
 
@@ -73,7 +73,7 @@ There are several metrics which can be used to check the quality of the stego im
 
 ### LSB Replacement
 
-This is the simplest of the stego algorithms. We simply split the cover image into its bitplanes and replace the LSBs by the secret data. At the reciever side, the secret data can be recovered by simply recovering the LSBs of the stego image. The code snipet below shows the embedding  of the secret data using LSB Replacement using MATLAB.
+This is the simplest of the stego algorithms. We simply split the cover image into its bitplanes and replace the LSBs by the secret data. At the reciever side, the secret data can be recovered by simply recovering the LSBs of the stego image. The code snipet below shows the embedding  of the secret data using LSB Replacement in MATLAB.
 
 ```matlab
 cov_img = imread('lena.tif'); % Input cover image
@@ -101,3 +101,4 @@ Higher LSB planes can be used if the size of the secret data is more. The secret
 
 ### Histogram shifting
 
+In histogram shifting, the cover image histogram is analysed and bins which contain peaks and zeros are separated. The histogram between a peak and a zero is shifted to create space for embedding secret data. How?

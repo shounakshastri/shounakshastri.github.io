@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Steganography"
-permalink: /Steganography
+permalink: /Steganography/
 read_time: true
 author_profile: true
 ---

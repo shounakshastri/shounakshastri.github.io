@@ -3,6 +3,7 @@ title: "Basic Steganography Concepts"
 collection: Steganography
 permalink: /Steganography/Basic Steganography Concepts
 excerpt: 'This post gives a basic overview of Steganography and is intended towards the uninitiated. We go through some basic techniques and the metrics used to guage the effectiveness of the scheme.'
+mathjax: true
 tags: 
     - Information Security
     - Steganography

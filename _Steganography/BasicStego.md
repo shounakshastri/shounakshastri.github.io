@@ -57,11 +57,13 @@ Images, as mentioned before, contain some inherent redundancies. This coupled wi
 
 It should be noted that stego images, being the carriers of secret data, should not invoke attention of entities which would potentially be looking for the secret data. This is where encryption fails. You can see from the images below that encrypted data/images practically shout that something confidential is being stored or transferred. This attracts hackers who basically take decrypting the data as a challenge. Steganography avoids this by producing high quality images that don't raise any suspicion.
 
-![](/images/stego_coloured.jpg){:height="35%" width="35%"}
-*Stego Image*
+|![](/images/stego_coloured.jpg){:height="35%" width="35%"}|
+|:--:|
+|*Stego Image*|
 
-![](/images/encrypted_image.jpg)
-*Encrypted Data*
+|![](/images/encrypted_image.jpg)|
+|:--:|
+|*Encrypted Data*|
 
 From the above discussion, we can gather that an encryption technique is "broken" when the hacker decrypts the data. But Steganography, due to its nature, is broken when the hacker knows for sure that some data is being hidden or transferred because it failed to pass unnoticed. This is a very important differentiation between Cryptography and Steganography. 
 
@@ -109,10 +111,11 @@ Higher LSB planes can be used if the size of the secret data is more. The secret
 ### Histogram shifting
 
 In histogram shifting, the cover image histogram is analysed to locate bins which contain peaks and zeros. The histogram pair of peak-zero bins is chosen and the histogram betweent them is shifted to create space for embedding the secret data.
-[The code can be accessed here.]
+[The code can be accessed here.](https://github.com/shounakshastri/Histogram-Shifting-RDH)
 
-![](/images/Histogram_shifting.jpg)
-*Histograms of cover and stego images*
+|![](/images/Histogram_shifting.jpg)|
+|:--:|
+|*Histograms of cover and stego images*|
 
 ### JPEG Steganography
 

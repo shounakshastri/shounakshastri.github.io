@@ -63,6 +63,3 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently an elder in a Clash Royale clan

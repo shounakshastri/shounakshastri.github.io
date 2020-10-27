@@ -110,13 +110,14 @@ Higher LSB planes can be used if the size of the secret data is more. The secret
 
 ### Histogram shifting
 
-In histogram shifting, the cover image histogram is analysed to locate bins which contain peaks and zeros. The histogram pair of peak-zero bins is chosen and the histogram betweent them is shifted to create space for embedding the secret data.
+In histogram shifting, the cover image histogram is analysed to locate bins which contain peaks and zeros. A pair of peak-zero bins is chosen and the histogram betweent them is shifted to create space for embedding the secret data.
 [The code can be accessed here.](https://github.com/shounakshastri/Histogram-Shifting-RDH)
 
 |![](/images/HIstogram_shifting.jpg){:height="70%" width="70%"}|
 |:--:|
 |*Histograms of cover and stego images*|
 
+From the above image, it can be seen that one of the peaks from the  original histogram has disappeared. This is where we have hidden the data.
 ### JPEG Steganography
 
 It is important to discuss JPEG steganography as it is probably the most used image format in the real world. The algorithms which we have discussed before this are all implemented in the spatial domain and can be used to hide data in jpg files just like any other files. But, JPEG uses the Discrete Cosine Transform (DCT) to compress the original uncompressed images. Compression is, in simple words, removal of redundancy. Thus, we have a chance to integrate the data hiding process during the jpg compression. The secret data is hidden in the DCT Coefficients which makes the stego scheme more secure. The data is hidden using the same spatial domain schemes discussed above but the schemes are applied to DCT coefficients instead of raw pixel values. 

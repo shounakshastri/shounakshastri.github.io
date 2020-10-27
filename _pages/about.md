@@ -17,7 +17,7 @@ What did I do during my PhD?
 ===
 I analysed steganography algorithms, specifically Reversible Data Hiding (RDH) schemes and devised a new technique to hide secret data in image files. I will be putting up more details about my work in the blogs section of this website.
 
-I also served as a Teaching/Research Assistant for 4 years where I assisted several faculties and students with their coursework and projects. I have provided the details of my responsibilities during this period [hear](https://shounakshastri.github.io/teaching/). For a complete list of my publications, you can check my [ORCID page](https://orcid.org/0000-0002-2247-9046).
+I also served as a Teaching/Research Assistant for 4 years where I assisted several faculties and students with their coursework and projects. I have provided the details of my responsibilities during this period [here](https://shounakshastri.github.io/teaching/). For a complete list of my publications, you can check my [ORCID page](https://orcid.org/0000-0002-2247-9046).
 
 
 

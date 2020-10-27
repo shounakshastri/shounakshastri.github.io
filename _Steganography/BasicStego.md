@@ -113,7 +113,7 @@ Higher LSB planes can be used if the size of the secret data is more. The secret
 In histogram shifting, the cover image histogram is analysed to locate bins which contain peaks and zeros. The histogram pair of peak-zero bins is chosen and the histogram betweent them is shifted to create space for embedding the secret data.
 [The code can be accessed here.](https://github.com/shounakshastri/Histogram-Shifting-RDH)
 
-|![](/images/HIstogram_shifting.jpg)|
+|![](/images/HIstogram_shifting.jpg){:height="70%" width="70%"}|
 |:--:|
 |*Histograms of cover and stego images*|
 

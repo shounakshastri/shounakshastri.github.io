@@ -2,13 +2,13 @@
 title: "Basic Steganography Concepts"
 collection: Steganography
 permalink: /Steganography/Basic Steganography Concepts
-excerpt: 'This post gives a basic overview of Steganography and is intended towards the uninitiated. We go through some basic techniques of hiding data in image files with some programming in matlab.'
+excerpt: 'This post gives a basic overview of Steganography and is intended towards the uninitiated. We go through some basic techniques of hiding data in image files with some programming in Matlab.'
 mathjax: true
 tags: 
     - Information Security
     - Steganography
     - Data Hiding
-    - matlab    
+    - Matlab    
 date: 2020-10-15
 ---
 
@@ -24,7 +24,7 @@ Enter Steganography.
 
 Steganography hides digital data in other files. This makes it way more difficult to find hidden data. This can be used to hide information such as watermarks, share secret military and surveillance data, medical records, legal details, etc. 
 
-In this post, we will look at the three basic steganography schemes and learn to embed data in images. We use images as the host files to hide secret data because images are known to have redundancies which can be exploited to accomodate our secret data without adding too much distortion to the original files. 
+In this post, we will look at the three basic steganography schemes and learn to embed data in images. We use images as the host files to hide secret data because images are known to have redundancies which can be exploited to accommodate our secret data without adding too much distortion to the original files. 
 
 ## Cover and stego files
 
@@ -77,13 +77,13 @@ We will be discussing 3 basic techniques here.
 2. Histogram Shifting
 3. JPEG Steganography
 
-These techniques form the foundation of all the subsequent advances in Stego algorithms. The code in this segment is written in matlab using the Image Processing Toolbox (IPT). I have seen that many people are more comfortable with Python. The closest alternative to IPT in python is the [opencv package](https://pypi.org/project/opencv-python/). Most of the syntax and functions are the same but with a Python flavour. Such as `i = i + 1` in matlab is `i += 1` in python and `imread()` in matlab becomes `cv2.imread()`. So, translating the code to python would probably not be too complicated. 
+These techniques form the foundation of all the subsequent advances in Stego algorithms. The code in this segment is written in Matlab using the Image Processing Toolbox (IPT). I have seen that many people are more comfortable with Python. The closest alternative to IPT in Python is the [OpenCV package](https://pypi.org/project/opencv-python/). Most of the syntax and functions are the same but with a Python flavour. Such as `i = i + 1` in Matlab is `i += 1` in Python and `imread()` in Matlab becomes `cv2.imread()`. So, translating the code to python would probably not be too complicated. 
 
-Another thing to note at this point is, we will generate the secret data randomly using the internal randomizer of matlab. The reason for this is we usually never embed the secret data directly in the cover image. It is always encrypted first. Because, we need to have a security measure in place to protect our data in case our steganography fails. So, we simulate this by geneating random binary bits and use those as the secret data.
+Another thing to note at this point is, we will generate the secret data randomly using the internal randomizer of Matlab. The reason for this is we usually never embed the secret data directly in the cover image. It is always encrypted first. Because, we need to have a security measure in place to protect our data in case our steganography fails. So, we simulate this by generating random binary bits and use those as the secret data.
 
 ### LSB Replacement
 
-This is the simplest of the stego algorithms. We simply split the cover image into its bitplanes and replace the LSBs by the secret data. At the reciever side, the secret data can be recovered by simply recovering the LSBs of the stego image. The code snipet below shows the embedding  of the secret data using LSB Replacement in MATLAB.
+This is the simplest of the stego algorithms. We simply split the cover image into its bit planes and replace the LSBs by the secret data. At the receiver side, the secret data can be recovered by simply recovering the LSBs of the stego image. The code snippet below shows the embedding  of the secret data using LSB Replacement in MATLAB.
 
 ```matlab
 cov_img = imread('lena.tif'); % Input cover image
@@ -110,14 +110,17 @@ Higher LSB planes can be used if the size of the secret data is more. The secret
 
 ### Histogram shifting
 
-In histogram shifting, the cover image histogram is analysed to locate bins which contain peaks and zeros. A pair of peak-zero bins is chosen and the histogram betweent them is shifted to create space for embedding the secret data.
-[The code can be accessed here.](https://github.com/shounakshastri/Histogram-Shifting-RDH)
+In histogram shifting, the cover image histogram is analysed to locate bins which contain peaks and zeros. A pair of peak-zero bins is chosen and the histogram between them is shifted to create space for embedding the secret data. The length of the secret data and the peak and zero pair is sent to the receiver as auxiliary data. At the receiver, the image is scanned again and every time a pixel with either P or P $\pm$ 1 is found, we either extract a 0 or a 1 based on the auxiliary data. [The code for embedding and extraction can be accessed here.](https://github.com/shounakshastri/Histogram-Shifting-RDH)
 
 |![](/images/HIstogram_shifting.jpg)|
 |:--:|
 |*Histograms of cover and stego images*|
 
-From the above image, it can be seen that one of the peaks from the  original histogram has disappeared. This is where we have hidden the data.
+From the above image, it can be seen that one of the peaks from the  original histogram has disappeared. This is where we have embedded hidden the data. 
+
+One more thing to note here is that it is possible to recover the original cover image. Although it is not implemented the code linked above, it is simple enough that anybody with a minimal coding experience can add the lines for recovery of the original image.
+
+
 ### JPEG Steganography
 
 It is important to discuss JPEG steganography as it is probably the most used image format in the real world. The algorithms which we have discussed before this are all implemented in the spatial domain and can be used to hide data in jpg files just like any other files. But, JPEG uses the Discrete Cosine Transform (DCT) to compress the original uncompressed images. Compression is, in simple words, removal of redundancy. Thus, we have a chance to integrate the data hiding process during the jpg compression. The secret data is hidden in the DCT Coefficients which makes the stego scheme more secure. The data is hidden using the same spatial domain schemes discussed above but the schemes are applied to DCT coefficients instead of raw pixel values. 

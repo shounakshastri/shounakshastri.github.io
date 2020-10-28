@@ -88,7 +88,7 @@ Now by looking at the blogs, news and tweets, we can say that out of the three f
 
 ## Basic summary of the data
 
-First, let's check the memory utilization by the individual files in order to get some perspective about the space requirements. We will also run the garbage collector using `gc()` everytime we remove some big variables to free up some space for R. .
+First, let's check the memory utilization by the individual files in order to get some perspective about the space requirements. We will also run the garbage collector using `gc()` every time we remove some big variables to free up some space for R. .
 
 ```r
 blogsMem <- object.size(blogs)
@@ -132,9 +132,9 @@ Now, lets check some basic stats regarding the text in the three files. In this 
 ## 3  twitter 2360148 30373583         140
 ```
 
-It should be noted here that the longest line in the twitter file are 140 characters in length. This is accurate as twiter used to limits all the tweets to 140 characters. Atleast this was the case a few years back. 
+It should be noted here that the longest line in the twitter file are 140 characters in length. This is accurate as twitter used to limits all the tweets to 140 characters. At least this was the case a few years back. 
 
-It can also be observed here that, even though the twitter dataset is largest in terms of number of lines and memory required, the number of words is much less than that in blogs. This indicates a usage of shorter senteneces or, more probably, special characters like emojis. <span style='color: green'>*This information would be important during the data cleaning because now we would have to look out for alphanumeric characters as well.*</span>
+It can also be observed here that, even though the twitter dataset is largest in terms of number of lines and memory required, the number of words is much less than that in blogs. This indicates a usage of shorter sentences or, more probably, special characters like emojis. <span style='color: green'>*This information would be important during the data cleaning because now we would have to look out for alphanumeric characters as well.*</span>
 
 ## Cleaning and Sampling the data 
 
@@ -155,7 +155,7 @@ tweets <- tibble(text = tweets)
 
 ### Combining the data and creating samples
 
-Here, we first combine all the three dataframes into one and then sample from that text. This combination is done by using the `bind_rows()` function. This is done so that when we create a sample, it would randomly pick rows from all three data frames combined.
+Here, we first combine all the three data-frames into one and then sample from that text. This combination is done by using the `bind_rows()` function. This is done so that when we create a sample, it would randomly pick rows from all three data frames combined.
 
 
 ```r
@@ -172,7 +172,7 @@ gc()
 
 #### *Creating a sample*
 
-Now we will create a sample from the combined data and operate on that. This would give us a good approximation while making the code faster as we don't have to use the complete dataset. The `set.seed()` line should be uncommented for reproducability. Also, from this point on, we will be operating on the sample, so we will remove the original dataset to free up some memory.
+Now we will create a sample from the combined data and operate on that. This would give us a good approximation while making the code faster as we don't have to use the complete dataset. The `set.seed()` line should be uncommented for reproducibility. Also, from this point on, we will be operating on the sample, so we will remove the original dataset to free up some memory.
 
 
 ```r
@@ -197,7 +197,7 @@ corpusSample$text <- gsub("\\s+", " ", corpusSample$text) # Remove the extra spa
 
 ## Tokenizing the sample
 
-Tokenizing converts strings into list of words. Here, we will create two sets of tidy data, one which includes all the stopwords and the other with stopwords removed. Stopwords is a list of words commonly used in the English language which are usually removed from the text while implementing text mining applications. Although removing the stopwords would reduce the load on our system significantly, it is not advisable to do so in the case of our target application as discussed in Part 1. That is because the text predictor should be able to predict words included in the list. But we wil check the effect of removing the stop words on our dictionary anyways to satisfy my personal curiosity.
+Tokenizing converts strings into list of words. Here, we will create two sets of tidy data, one which includes all the stop-words and the other with stop-words removed. Stop-words is a list of words commonly used in the English language which are usually removed from the text while implementing text mining applications. Although removing the stop words would reduce the load on our system significantly, it is not advisable to do so in the case of our target application as discussed in Part 1. That is because the text predictor should be able to predict words included in the list. But we will check the effect of removing the stop words on our dictionary anyways to satisfy my personal curiosity.
 
 
 ```r
@@ -363,5 +363,13 @@ coverage90pctWithStopwords %>%
 rm(tidyset_withStopWords, 
    coverage90pctWithStopwords)
 ```
+
+### Hardware limitations
+
+One more thing that I noticed in this analysis was that my hardware was being bottlenecked by the RAM.
+
+![](./images/Bottleneck.jpg)
+
+You can see that the RAM usage is at 90% and the disk is being occasionally bought into play. This is because, by default, windows does not allow 100% usage of the RAM. If the ram is completely filled, some of the data is transferred to the hard disk. to reduce the load on the RAM. This however slows down the execution of our code as the computer has to go through the storage instead of RAM to recover the data. This means that we would have to work up a way to reduce the load so that our processor is used to its capacity. One of the ways to do this would be to break our data up and run the code separately on each part. 
 
 This gives us a fair idea about the data. Now we can proceed to build the model.

@@ -17,7 +17,7 @@ Part 1 - Figuring out the problem at hand
 
 [Part 2 - Exploring the dataset](https://shounakshastri.github.io/NLP/Word%20Prediction%20Model%20-%20PART%202%20-%20Exploratory%20Data%20Analysis)
 
-[Part 3 - Creating the model]()
+[Part 3 - Creating the model](https://shounakshastri.github.io/NLP/Word%20Prediction%20Model%20-%20PART%203%20-%20Model%20Building)
 
 Part 4 - Deploying the model
 

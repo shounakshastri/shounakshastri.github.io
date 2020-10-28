@@ -18,7 +18,7 @@ This is the second post in a series which builds a basic word prediction model u
 
 Part 2 - Exploring the dataset 
 
-Part 3 - Creating the model
+[Part 3 - Creating the model](https://shounakshastri.github.io/NLP/Word%20Prediction%20Model%20-%20PART%203%20-%20Model%20Building)
 
 Part 4 - Deploying the model
 

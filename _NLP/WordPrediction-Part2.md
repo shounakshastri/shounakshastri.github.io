@@ -368,7 +368,7 @@ rm(tidyset_withStopWords,
 
 One more thing that I noticed in this analysis was that my hardware was being bottlenecked by the RAM.
 
-![](./images/Bottleneck.jpg)
+![](/images/Bottleneck.jpg)
 
 You can see that the RAM usage is at 90% and the disk is being occasionally bought into play. This is because, by default, windows does not allow 100% usage of the RAM. If the ram is completely filled, some of the data is transferred to the hard disk. to reduce the load on the RAM. This however slows down the execution of our code as the computer has to go through the storage instead of RAM to recover the data. This means that we would have to work up a way to reduce the load so that our processor is used to its capacity. One of the ways to do this would be to break our data up and run the code separately on each part. 
 

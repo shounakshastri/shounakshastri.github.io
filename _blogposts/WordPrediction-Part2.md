@@ -1,8 +1,8 @@
 ---
 title: "Word Prediction Model - PART 2 - Exploratory Data Analysis "
-collection: NLP
+collection: blogposts
 type: "Word Prediction Model"
-permalink: /NLP/Word Prediction Model - PART 2 - Exploratory Data Analysis
+permalink: /blogposts/Word Prediction Model - PART 2 - Exploratory Data Analysis
 tags: 
     - Machine Learning
     - NLP

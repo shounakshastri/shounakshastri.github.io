@@ -1,8 +1,8 @@
 ---
 title: "Word Prediction Model - PART 3 - Model Building"
-collection: NLP
+collection: blogposts
 type: "Word Prediction Model"
-permalink: /NLP/Word Prediction Model - PART 3 - Model Building
+permalink: /blogposts/Word Prediction Model - PART 3 - Model Building
 tags: 
     - Machine Learning
     - NLP

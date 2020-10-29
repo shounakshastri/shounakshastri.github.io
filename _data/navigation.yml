@@ -9,12 +9,11 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "NLP"
-    url: /NLP/
+  - title: "Blog Posts"
+    url: /blogposts/
 
   - title: "Steganography"
     url: /Steganography/
         
   - title: "CV"
     url: /cv/
-

@@ -1,8 +1,8 @@
 ---
 title: "Word Prediction Model - PART 1 - Figuring out the problem at hand "
-collection: NLP
+collection: blogposts
 type: "Word Prediction Model"
-permalink: /NLP/Word Prediction Model - PART 1 - Figuring out the problem at hand
+permalink: /blogposts/Word Prediction Model - PART 1 - Figuring out the problem at hand
 tags: 
     - Machine Learning
     - NLP

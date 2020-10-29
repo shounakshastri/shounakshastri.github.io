@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "NLP"
-permalink: /NLP/
+title: "Blog Posts"
+permalink: /blogposts/
 read_time: true
 author_profile: true
 ---

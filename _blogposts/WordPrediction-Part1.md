@@ -1,7 +1,6 @@
 ---
 title: "Word Prediction Model - PART 1 - Figuring out the problem at hand"
 collection: blogposts
-type: "Word Prediction Model"
 permalink: /blogposts/Word Prediction Model - PART 1 - Figuring out the problem at hand
 tags: 
     - Machine Learning

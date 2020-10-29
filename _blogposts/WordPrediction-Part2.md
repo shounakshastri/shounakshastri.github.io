@@ -1,7 +1,6 @@
 ---
-title: "Word Prediction Model - PART 2 - Exploratory Data Analysis "
+title: "Word Prediction Model - PART 2 - Exploratory Data Analysis"
 collection: blogposts
-type: "Word Prediction Model"
 permalink: /blogposts/Word Prediction Model - PART 2 - Exploratory Data Analysis
 tags: 
     - Machine Learning

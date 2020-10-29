@@ -1,7 +1,6 @@
 ---
 title: "Word Prediction Model - PART 3 - Model Building"
 collection: blogposts
-type: "Word Prediction Model"
 permalink: /blogposts/Word Prediction Model - PART 3 - Model Building
 tags: 
     - Machine Learning

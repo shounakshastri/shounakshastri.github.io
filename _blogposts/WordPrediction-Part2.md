@@ -26,7 +26,7 @@ Part 5 - Conclusion and future scope for improvement
 
 ## Introduction
 
-This report summarizes the Exploratory Data Analysis performed on a text dataset. I have used the Swiftkey dataset containing blogs, news articles and tweets in this exercise. But, any corpus containing articles, messages or posts can be used here. The steps would be similar.
+This report summarizes the Exploratory Data Analysis performed on a text dataset. I have used the SwiftKey dataset containing blogs, news articles and tweets in this exercise. But, any corpus containing articles, messages or posts can be used here. The steps would be similar.
 
 This analysis will help us plan the development of an app which would predict the next word in a sentence like the autocomplete feature in most mobile phones.
 

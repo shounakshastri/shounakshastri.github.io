@@ -14,11 +14,11 @@ date: 2020-10-15
 
 This is the second post in a series which builds a basic word prediction model using R. We will be doing some basic EDA and figure out where we might run into problems during the modelling and deployment stages. Given below are the links to all the parts in the series:
 
-[Part 1 - Figuring out the problem at hand](https://shounakshastri.github.io/NLP/Word%20Prediction%20Model%20-%20PART%201%20-%20Figuring%20out%20the%20problem%20at%20hand)
+[Part 1 - Figuring out the problem at hand](https://shounakshastri.github.io/blogposts/Word%20Prediction%20Model%20-%20PART%201%20-%20Figuring%20out%20the%20problem%20at%20hand)
 
 Part 2 - Exploring the dataset 
 
-[Part 3 - Creating the model](https://shounakshastri.github.io/NLP/Word%20Prediction%20Model%20-%20PART%203%20-%20Model%20Building)
+[Part 3 - Creating the model](https://shounakshastri.github.io/blogposts/Word%20Prediction%20Model%20-%20PART%203%20-%20Model%20Building)
 
 Part 4 - Deploying the model
 

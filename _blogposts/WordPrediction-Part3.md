@@ -14,9 +14,9 @@ date: 2020-10-20
 
 This is the third post in a series which builds a basic word prediction model using R. Here, we will be making the actual model based on the things we learnt in Part 2. The procedure of generating the n-grams is similar to the process we used in the EDA. You can check the other parts from the list given below.
 
-[Part 1 - Figuring out the problem at hand](https://shounakshastri.github.io/NLP/Word%20Prediction%20Model%20-%20PART%201%20-%20Figuring%20out%20the%20problem%20at%20hand)
+[Part 1 - Figuring out the problem at hand](https://shounakshastri.github.io/blogposts/Word%20Prediction%20Model%20-%20PART%201%20-%20Figuring%20out%20the%20problem%20at%20hand)
 
-[Part 2 - Exploring the dataset](https://shounakshastri.github.io/NLP/Word%20Prediction%20Model%20-%20PART%202%20-%20Exploratory%20Data%20Analysis) 
+[Part 2 - Exploring the dataset](https://shounakshastri.github.io/blogposts/Word%20Prediction%20Model%20-%20PART%202%20-%20Exploratory%20Data%20Analysis) 
 
 Part 3 - Creating the model
 

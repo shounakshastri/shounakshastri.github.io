@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+![Downloadable PDF](/files/Shounak_Shastri_Resume.pdf)
+
 Education
 ======
 * B.E. in Electronics Engineering, K. J. Somaiya College of Engineering, Mumbai, 2012

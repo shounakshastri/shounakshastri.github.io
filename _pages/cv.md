@@ -3,13 +3,14 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+paperurl: 'https://shounakshastri.github.io/files/Shounak_Shastri_Resume.pdf'
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
 
-![Downloadable PDF](/files/Shounak_Shastri_Resume.pdf)
+![Downloadable PDF](https://shounakshastri.github.io/files/Shounak_Shastri_Resume.pdf)
 
 Education
 ======

@@ -2,12 +2,14 @@
 title: "Word Prediction Model - PART 2 - Exploratory Data Analysis"
 collection: blogposts
 type: blogposts
+excerpt: This is part 2 of 5 in a series of blogs where we build a word prediction application. In this post we download our corpus and do some preliminary analysis (EDA).
 permalink: /blogposts/Word Prediction Model - PART 2 - Exploratory Data Analysis
 tags: 
     - Machine Learning
     - NLP
     - R
     - Exploratory Data Analysis
+    - EDA
     - n-grams
 date: 2020-10-15
 ---

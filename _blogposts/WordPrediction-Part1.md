@@ -2,6 +2,7 @@
 title: "Word Prediction Model - PART 1 - Figuring out the problem at hand"
 collection: blogposts
 type: blogposts
+excerpt: This is Part 1 in a series of posts where we build a word prediction application in R. In this post, we lay out our plan of action and decide how to proceed with the project. 
 permalink: /blogposts/Word Prediction Model - PART 1 - Figuring out the problem at hand
 tags: 
     - Machine Learning
@@ -33,7 +34,7 @@ In this post, we will be planning some of the aspects of our project. As a resul
 
 Ok. So we need to build a program to predict the next word based on the words that a user has typed. This would basically be like most of the modern word predictors in our phones. Here are the goals for our project
 
-- The target user would be a person who frequently types messages, emails, tweets, etc and uses the modern/current form of the english language. This basically means we don't want the predictor to predict words like "thou" or convert normal english to leetspeak like 3ngl!sh. 
+- The target user would be a person who frequently types messages, emails, tweets, etc and uses the modern/current form of the English language. This basically means we don't want the predictor to predict words like "thou" or convert normal English to leetspeak like 3ngl!sh. 
 
 - The app should be fast and should require less memory.
 
@@ -68,9 +69,9 @@ The 3-grams or trigrams for this sentence would be:
 "stormlight archive book"
 ```
 
-### **3.2 Katz's Backoff**
+### **3.2 Back-off Algorithm**
 
-Katz's Backoff is an algorithm which says that if we don't find the exact phrase in our list of n-grams, then search for in the the list of (n-1)-grams. The n-gram phrases are arranged according to their frequency of occurences and the output would be the most common phrase in the list containing the words in that exact order. This means if the user has entered the phrase
+Back-off algorithm is used to search the input phrase in the the list of (n-1)-grams if we don't find the exact match in our list of n-grams. The n-gram phrases are arranged according to their frequency of occurrences and the output would be the most common phrase in the list containing the words in that exact order. This means if the user has entered the phrase
 ```
 My name
 ```

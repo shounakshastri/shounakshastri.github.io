@@ -2,14 +2,16 @@
 title: "Word Prediction Model - PART 3 - Model Building"
 collection: blogposts
 type: blogposts
+excerpt: This is part 3 of 5 in a series of blogs where we build a word prediction app. In this part we create a n-gram model and write the code to implement the back-off to predict the next word.
 permalink: /blogposts/Word Prediction Model - PART 3 - Model Building
 tags: 
     - Machine Learning
     - NLP
     - R
     - Predictive Text
+    - Text Prediction
     - n-grams
-date: 2020-10-20
+date: 2020-10-18
 ---
 
 This is the third post in a series which builds a basic word prediction model using R. Here, we will be making the actual model based on the things we learnt in Part 2. The procedure of generating the n-grams is similar to the process we used in the EDA. You can check the other parts from the list given below.

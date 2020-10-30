@@ -2,6 +2,7 @@
 title: "Word Prediction Model - PART 4 - Deploying the model"
 collection: blogposts
 type: blogposts
+excerpt: This is Part 4 of a 5 part series where we build and deploy a text prediction app using R. In this part we build the ui and server side code of the app and deploy it on Shiny.
 permalink: /blogposts/Word Prediction Model - PART 4 - Deploying the model
 tags: 
     - WWord Prediction
@@ -11,7 +12,7 @@ tags:
     - Model Deployment
     - Shiny
 
-date: 2020-10-13
+date: 2020-10-21
 ---
 
 This post is the fourth in the series where we build a basic word prediction model using R. At this stage we have already built the model. In this post we will be deploying it on Shiny. [You can check the app using this link.](https://shounakshastri.shinyapps.io/word_prediction/). If you have missed any of the previous posts, you can click on the links below to check those out. 
@@ -32,7 +33,7 @@ So, welcome to Part 4 of our series. At this stage, we have 4 files which contai
 
 First, we need `shiny package` to deploy the app.
 
-To make it easier in the app, we will transfer all the imports from the `prediction_code.R` file to the `app.r`. We will also include the prediction file as the source in the app.
+To make it easier in the app, we will transfer all the imports from the `prediction_code.R` file to the `app.R` file. We will also include the prediction file as the source in the app.
 
 ```r
 library(shiny)
@@ -79,4 +80,42 @@ ui <- fluidPage(
     )
 )
 ```
-You can see we have made the app fluid. That means, the user doesn't have to do anything other than entering the text in the textbox. The prediction code will run every time the user enters a complete word. 
+You can see we have made the app fluid. That means, the user doesn't have to do anything other than entering the text in the textbox. The prediction code will run every time the user enters a complete word and try to predict the next word.
+
+## Back end (server)
+
+This is the place where we define the prediction algorithm. We simply link our `prediction()` from our `prediction_code.R` file and pass it on to the server side.  
+
+```r
+server <- function(input, output) {
+
+    output$predicted_word <- renderText({
+        prediction(input$user_input)
+    })
+    
+}
+
+# Run the application 
+shinyApp(ui = ui, server = server)
+```
+
+## Final deployment
+
+RStudio make it really easy to deploy on Shiny. We just click the `Publish` button and it takes us to a dialog box where we can select all the supporting files that would need to be passed along with our app. In our case, its the four n-gram lists and the `prediction_code.R` file along with our `app.R` file.
+
+After deployment the app looks like this:
+
+[](/images/Blank_app.jpg)
+
+When the user enters some text:
+
+[](/images/With_input.jpg)
+
+When the app is trying to predict the next word
+
+[](/images/thinking.jpg)
+
+You can access the completed app on [this link](https://shounakshastri.shinyapps.io/word_prediction/). This link is not registered and will not appear if you google it. You just have to follow it through this page.
+---
+
+So this is how we make and deploy a basic word predicting application. In the next part we will conclude the series and reflect upon what we have created here. We will see which aspects of the app work well and which aspects need improvements. 

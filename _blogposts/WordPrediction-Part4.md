@@ -5,7 +5,7 @@ type: blogposts
 excerpt: This is Part 4 of a 5 part series where we build and deploy a text prediction app using R. In this part we build the ui and server side code of the app and deploy it on Shiny.
 permalink: /blogposts/Word Prediction Model - PART 4 - Deploying the model
 tags: 
-    - WWord Prediction
+    - Word Prediction
     - Machine Learning
     - NLP
     - R

@@ -116,6 +116,7 @@ When the app is trying to predict the next word
 [](/images/thinking.jpg)
 
 You can access the completed app on [this link](https://shounakshastri.shinyapps.io/word_prediction/). This link is not registered and will not appear if you google it. You just have to follow it through this page.
+
 ---
 
 So this is how we make and deploy a basic word predicting application. In the next part we will conclude the series and reflect upon what we have created here. We will see which aspects of the app work well and which aspects need improvements. 

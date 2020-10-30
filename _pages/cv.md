@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-![Downloadable PDF](https://shounakshastri.github.io/files/Shounak_Shastri_Resume.pdf)
+[Downloadable PDF](https://shounakshastri.github.io/files/Shounak_Shastri_Resume.pdf)
 
 Education
 ======

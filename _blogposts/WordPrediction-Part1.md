@@ -20,7 +20,7 @@ Part 1 - Figuring out the problem at hand
 
 [Part 3 - Creating the model](https://shounakshastri.github.io/blogposts/Word%20Prediction%20Model%20-%20PART%203%20-%20Model%20Building)
 
-Part 4 - Deploying the model
+[Part 4 - Deploying the model](https://shounakshastri.github.io/blogposts/Word%20Prediction%20Model%20-%20PART%204%20-%20Deploying%20the%20model)
 
 Part 5 - Conclusion and future scope for improvement
 

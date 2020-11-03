@@ -25,7 +25,7 @@ This post is the fourth in the series where we build a basic word prediction mod
 
 Part 4 - Deploying the model
 
-Part 5 - Conclusion and future scope for improvement
+Part 5 - Lessons learnt
 
 ---
 

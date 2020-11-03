@@ -11,7 +11,7 @@ redirect_from:
 About Me
 ===
 
-I am a PhD Researcher at VIT Vellore. My work mostly revolved around analysing and developing new steganography and watermarking schemes. My specilization is in the areas of Information Security (cryptography and steganography), Image Processing and Computer Vision. I have submitted my thesis and am waiting for the reviewers to give their comments. I am currently looking for jobs which need Research & Development (R&D) skills in the fields of Machine Learning (ML), Deep Learning (DL), Data Science and Artificial Intelligence (AI). 
+I am a PhD Researcher at VIT Vellore. I have recently submitted my thesis on Steganography Algorithms where I analysed and developed new steganography and watermarking schemes. My specialization is in the areas of Information Security (cryptography and steganography), Image Processing and Computer Vision. I am currently looking for jobs which need Research & Development (R&D) skills in the fields of Machine Learning (ML), Deep Learning (DL), Data Science and Artificial Intelligence (AI). 
 
 What did I do during my PhD?
 ===

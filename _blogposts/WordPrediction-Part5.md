@@ -39,17 +39,26 @@ Let's see what works well first
 
 ### Simplicity
 
-The app is easy to use. This is because we have limited the number of places where a user can interact to 1. So, even if the instructions were not available,the user would have instinctively clicked on the text box.
+The app is easy to use. This is because we have limited the number of places where a user can interact to 1. So, even if the instructions were not available, the user would have instinctively clicked on the text box.
 
-The user doesn't have to press a button or navigate any menus. He/She simply enters the text and the output is presented. Also, the app shows `---thinking---` when it is waiting for the user to input a complete word. This serves as an indication to the user that either the n-gram phrase is not present in the library or the word is either misspelled/incomplete.
+The user doesn't have to press a button or navigate any menus. He/She simply enters the text and the output is presented. Also, the app shows <span style="color:blue">_---thinking---_</span> when it is waiting for the user to input a complete word. This serves as an indication to the user that either the n-gram phrase is not present in the library or the word is misspelled/incomplete.
 
 ### Size
 
-As of writing this post, the size of the app is around 6.3MB. This is good as we still have lots of space if we decide to increase our n-gram library size.
+As of writing this post, the size of the app is around 6.3MB. This is good as we still have lots of space if we decide to expand our n-gram library.
 
 ### Speed
 
-The speed of prediction is quite good. There is no apparent need to wait for the app to process the input and display the output.
+The speed of prediction is quite good. The app doesn't make the user wait while it's processing the input.
 
 ## Weaknesses
 
+Now for the scope of improvement
+
+### Prediction Accuracy
+
+Well, the prediction accuracy is not great. This is because of the following reasons
+
+1. We filtered lot of words to reduce the space and processing time.
+
+2. We haven't implemented smoothing which 

@@ -59,6 +59,9 @@ Now for the scope of improvement
 
 Well, the prediction accuracy is not great. This is because of the following reasons
 
-1. We filtered lot of words to reduce the space and processing time.
+**1. We filtered lot of words to reduce the space and processing time.**
 
-2. We haven't implemented smoothing which 
+The tokenization process took a long time to execute. The
+
+**2. We haven't implemented smoothing which removes the possibility of adding new n-grams entered by the user.**
+

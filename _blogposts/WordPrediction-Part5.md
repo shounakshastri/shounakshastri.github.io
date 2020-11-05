@@ -61,7 +61,11 @@ Well, the prediction accuracy is not great. This is because of the following rea
 
 **1. We filtered lot of words to reduce the space and processing time.**
 
-The accuracy would have been better if we had kept all the n-grams. But in order to save space and time required to go search through the library, we filtered the n-grams with frequencies less than 6. This reduced our ability to predict simply because we didn't have a more exhaustive library.
+The tokenization process takes a longer time to execute as the value of n increases. Also, the file size increases as one sentence is split into multiple phrases usually with repeated words.
+
+For example:
+
+
 
 **2. We haven't implemented smoothing which removes the possibility of adding new n-grams entered by the user.**
 

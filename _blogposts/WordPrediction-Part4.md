@@ -102,19 +102,19 @@ shinyApp(ui = ui, server = server)
 
 ## Final deployment
 
-RStudio make it really easy to deploy on Shiny. We just click the `Publish` button and it takes us to a dialog box where we can select all the supporting files that would need to be passed along with our app. In our case, its the four n-gram lists and the `prediction_code.R` file along with our `app.R` file.
+RStudio makes it really easy to deploy on Shiny. We just click the `Publish` button and it takes us to a dialog box where we can select all the supporting files that would be needed for our app. In our case, its the four n-gram lists and the `prediction_code.R` file along with our `app.R` file.
 
 After deployment the app looks like this:
 
-[](/images/Blank_app.jpg)
+![](/images/Blank_app.jpg)
 
 When the user enters some text:
 
-[](/images/With_input.jpg)
+![](/images/With_input.jpg)
 
 When the app is trying to predict the next word
 
-[](/images/thinking.jpg)
+![](/images/thinking.jpg)
 
 You can access the completed app on [this link](https://shounakshastri.shinyapps.io/word_prediction/). This link is not registered and will not appear if you google it. You just have to follow it through this page.
 

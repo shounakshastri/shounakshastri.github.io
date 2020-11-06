@@ -51,7 +51,7 @@ The app has two sections:
 2. back end (server)
 
 ## Front end (ui)
-Front end is the stuff that people see and interact with on the app. We have already decided on this in [Part 1](https://shounakshastri.github.io/blogposts/Word%20Prediction%20Model%20-%20PART%201%20-%20Figuring%20out%20the%20problem%20at%20hand) with a very basic drawing made in MSPaint. This to be exact:
+Front end is the stuff that people see and interact with on the app. We have already decided how the aapp should look like in [Part 1](https://shounakshastri.github.io/blogposts/Word%20Prediction%20Model%20-%20PART%201%20-%20Figuring%20out%20the%20problem%20at%20hand) with a very basic drawing made in MSPaint. This to be exact:
 
 ![Basic App Layout](/images/ShinyAppLayout.jpg)
 

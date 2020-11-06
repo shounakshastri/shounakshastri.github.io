@@ -2,7 +2,7 @@
 title: "Dual image reversible data hiding using trinary assignment and centre folding strategy with low distortion"
 collection: publications
 permalink: /publication/Dual image reversible data hiding using trinary assignment and centre folding strategy with low distortion
-excerpt: 'This is a novel steganography technique that I developed.'
+excerpt: 'This paper shows a novel Dual Image RDH scheme where we reduce the embedding distortion considerably while preserving the Embedding Capacity.'
 date: 2019-05-01
 venue: 'Journal of Visual Communication and Image Representation'
 paperurl: 'https://doi.org/10.1016/j.jvcir.2019.03.022'

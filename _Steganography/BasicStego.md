@@ -118,7 +118,7 @@ In histogram shifting, the cover image histogram is analysed to locate bins whic
 
 From the above image, it can be seen that one of the peaks from the  original histogram has disappeared. This is where we have embedded hidden the data. 
 
-One more thing to note here is that it is possible to recover the original cover image. Although it is not implemented the code linked above, it is simple enough that anybody with a minimal coding experience can add the lines for recovery of the original image.
+One more thing to note here is that it is possible to recover the original cover image. Although it is not implemented in the code linked above, it is simple enough that anybody with a minimal coding experience can add the lines for recovery of the original image.
 
 
 ### JPEG Steganography

@@ -35,11 +35,11 @@ By now, it should be clear that Steganography needs two files.
 
 The output file which contains the hidden secret data is called the *Stego file*
 
-In more formal terms, if $Emb()$ is your embedding algorithm which helps you embed/hide data in a cover file, then 
+Now, if $Emb()$ is your embedding algorithm which helps you embed/hide data in a cover file, then the stego file can be given as
 
 $$ stegoFile = Emb(secretData, coverFile, key)$$
 
-where S is the Stego file, and key is the password/auxiliary data required to recover the hidden secret data. The key is usually a biproduct of the embedding process and it's use would be clearer in the upcoming sections.
+where key is the password/auxiliary data required to recover the hidden secret data. The key is usually a biproduct of the embedding process and it's use would be clearer in the upcoming sections.
 
 Similarly, the hidden data can be recovered using an extraction algorithm $Ext()$ given as
 
@@ -51,7 +51,7 @@ $$ secretData = Ext(Emb(secretData, coverFile, key), key)$$
 
 ## How to hide data in the cover files?
 
-Images, as mentioned before, contain some inherent redundancies. This coupled with the way the Human Visual System works, makes images great to be used as cover files. Usually, a change of less than 20 pixel values is not noticable to humans. Thus, steganography modifies the cover pixel values to hide secret data while keeping the difference between the cover pixel and the stego pixel to a minimum. 
+Images, as mentioned before, contain some inherent redundancies. This coupled with the way the Human Visual System works, makes images great to be used as cover files. Usually, a change of less than 20 pixel values is not noticeable to humans. Thus, steganography modifies the cover pixel values while keeping the difference between the cover pixel and the stego pixel to a minimum. 
 
 ### Regarding the quality of stego images
 
@@ -65,7 +65,7 @@ It should be noted that stego images, being the carriers of secret data, should 
 |:--:|
 |*Encrypted Data*|
 
-From the above discussion, we can gather that an encryption technique is "broken" when the hacker decrypts the data. But Steganography, due to its nature, is broken when the hacker knows for sure that some data is being hidden or transferred because it failed to pass unnoticed. This is a very important differentiation between Cryptography and Steganography. 
+From the above discussion, we can gather that an encryption technique is "broken" when the hacker decrypts the data. But Steganography, due to its nature, is broken when the hacker knows for sure that some data is hidden or being transferred because it failed to pass unnoticed. This is a very important differentiation between Cryptography and Steganography. 
 
 There are several metrics which can be used to check the quality of the stego image, but we will reserve them for a different post. 
 

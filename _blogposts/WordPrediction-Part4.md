@@ -31,7 +31,7 @@ Part 5 - Lessons learnt
 
 So, welcome to Part 4 of our series. At this stage, we have 4 files which contain bigrams, trigrams, quadgrams and pentagrams along with the prediction file which contains the model to predict subsequent words. We will need these five files in a separate folder. 
 
-First, we need `shiny package` to deploy the app.
+First, we need the `shiny package` to deploy the app.
 
 To make it easier in the app, we will transfer all the imports from the `prediction_code.R` file to the `app.R` file. We will also include the prediction file as the source in the app.
 

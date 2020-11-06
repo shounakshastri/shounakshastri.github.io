@@ -83,7 +83,7 @@ Another thing to note at this point is, we will generate the secret data randoml
 
 ### LSB Replacement
 
-This is the simplest of the stego algorithms. We simply split the cover image into its bit planes and replace the LSBs by the secret data. At the receiver side, the secret data can be recovered by simply recovering the LSBs of the stego image. The code snippet below shows the embedding  of the secret data using LSB Replacement in MATLAB.
+This is the simplest of the stego algorithms. We split the cover image into its bit planes and replace the LSBs by the secret data. At the receiver side, the secret data can be recovered by simply recovering the LSBs of the stego image. The code snippet below shows the embedding  of the secret data using LSB Replacement in MATLAB.
 
 ```matlab
 cov_img = imread('lena.tif'); % Input cover image

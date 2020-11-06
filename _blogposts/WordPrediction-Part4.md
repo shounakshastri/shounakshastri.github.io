@@ -67,7 +67,8 @@ ui <- fluidPage(
             h5("3. You can try copying a longer sentence to see what is the prediction."),
             h5("4. The app can process pentagrams i.e. it can predict the 5th word based on the previous 4.")
         ),
-        # Show a plot of the generated distribution
+        
+        # Main panel with the textbox for input and the output
         mainPanel(
             
                 tabPanel("predict",

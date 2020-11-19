@@ -39,7 +39,7 @@ Now, if $Emb()$ is your embedding algorithm which helps you embed/hide data in a
 
 $$ stegoFile = Emb(secretData, coverFile, key)$$
 
-where key is the password/auxiliary data required to recover the hidden secret data. The key is usually a biproduct of the embedding process and it's use would be clearer in the upcoming sections.
+where key is the password/auxiliary data required to recover the hidden secret data. The key is usually a by-product of the embedding process and it's use would be clearer in the upcoming sections.
 
 Similarly, the hidden data can be recovered using an extraction algorithm $Ext()$ given as
 

@@ -53,3 +53,5 @@ $$ D(i, j) = \\begin{cases}
                     0, & \text {if } C^1(i, j) \= C^2(i, j) \\
                     1, & \text {if } C^1(i, j) \neq C^2(i, j)  
              \\end{cases} $$
+
+$$ NPCR = 

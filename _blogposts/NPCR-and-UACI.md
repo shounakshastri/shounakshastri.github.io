@@ -3,7 +3,7 @@ title: "Metrics used in image cryptography"
 collection: blogposts
 type: blogposts
 excerpt: This post gives an intuition about the metrics being used in academic literature on image encryption. 
-permalink: /blogposts/Word Prediction Model - PART 1 - Figuring out the problem at hand
+permalink: /blogposts/Metrics used in image cryptography
 tags: 
     - Encryption
     - Image Processing

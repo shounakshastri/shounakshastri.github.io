@@ -45,13 +45,13 @@ These plots are created by selecting around 2000 pairs of horizontally adjacent 
 
 ## 2. Number of Pixel Change Ratio (NPCR) and Unified Average Change Intensity (UACI)
 
-These metrics are used to check the resistance of the encryption technique to differential attacks. Differential attacks tell us how changes in the plain text affect the cipher text. Thus, NPCR and UACI track if a minor change in the original pixel value propagates or gets amplified in the encrypted image. To calculate this metric, we have to perform the encryption process twice. Once on the original plain image $C^1$, and next on an image with a change of 1-bit in a random pixel $C^2$.
+These metrics are used to check the resistance of the encryption technique to differential attacks. Differential attacks tell us how changes in the plain text affect the cipher text. Thus, NPCR and UACI track if a minor change in the original pixel value propagates or gets amplified in the encrypted image. To calculate this metric, we have to perform the encryption process twice. Once on the original plain image, and next on an image with a change of 1-bit in a random pixel.
 
-NPCR and UACI are calculated using the following equations
+If the two encrypted images to be represented by $C_1$ and $C_2$. Then, the NPCR and UACI are calculated using the following equations
 
 $$ D(i, j) = \begin{cases}
-                    0, & \text {if } C^1(i, j) = C^2(i, j) \\
-                    1, & \text {if } C^1(i, j) \neq C^2(i, j)  
+                    0, & \text {if } C_1(i, j) = C_2(i, j) \\
+                    1, & \text {if } C_1(i, j) \neq C_2(i, j)  
              \end{cases} $$          
 
 -------------
@@ -60,4 +60,4 @@ $$ NPCR = \sum_{i, j} \frac {D(i, j)}{T} $$
 
 -------------
 
-$$ UACI =  \sum_{i, j} \frac {C^1(i, j) - C^2(i, j)}{F \times T} $$
+$$ UACI =  \sum_{i, j} \frac {C_1(i, j) - C_2(i, j)}{F \times T} $$

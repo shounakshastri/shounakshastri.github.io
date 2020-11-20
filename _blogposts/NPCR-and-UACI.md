@@ -54,10 +54,10 @@ $$ D(i, j) = \begin{cases}
                     1, & \text {if } C^1(i, j) \neq C^2(i, j)  
              \end{cases} $$          
 
-===
+-------------
 
 $$ NPCR = \sum_{i, j} \frac {D(i, j)}{T} $$
 
-===
+-------------
 
 $$ UACI =  \sum_{i, j} \frac {C^1(i, j) - C^2(i, j)}{F \times T} $$

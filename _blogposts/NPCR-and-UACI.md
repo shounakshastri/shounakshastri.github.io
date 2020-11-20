@@ -45,7 +45,7 @@ These plots are created by selecting around 2000 pairs of horizontally adjacent 
 
 ## 2. Number of Pixel Change Ratio (NPCR) and Unified Average Change Intensity (UACI)
 
-These metrics are used to check the resistance of the encryption technique to differential attacks. Differential attacks tell us how changes in the plain text affect the cipher text. Thus, NPCR and UACI track if a minor change in the original pixel value propagates or gets amplified in the encrypted image. To calculate this metric, we have to perform the encryption process twice. Once on the original plain image, and next on an image with a change of 1-bit in a random pixel.
+These metrics are used to check the resistance of the encryption technique to differential attacks. Differential attacks tell us how changes in the plain text affect the cipher text. Thus, NPCR and UACI track if a minor change in the original pixel value propagates or gets amplified in the encrypted image. To calculate this metric, we have to perform the encryption process twice. Once on the original plain image $C^1$, and next on an image with a change of 1-bit in a random pixel $C^2$.
 
 NPCR and UACI are calculated using the following equations
 

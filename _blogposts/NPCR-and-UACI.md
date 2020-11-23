@@ -13,7 +13,7 @@ tags:
     - correlation
     - histogram 
 
-date: 2020-10-13
+date: 2020-11-20
 ---
 <span style='color: green'>This post is littered with warnings. Cryptography tends to appear simple and straightforward to an outsider but it's really not the case. When you first start taking a course on cryptography the instructor usually tells that people should never try to deploy their own encryption without first consulting the experts, even when they are an expert themselves! So, I request the reader to please bear with me through all the warnings/rants. They might help if you are a student or just starting in the field.</span>
 
@@ -81,7 +81,11 @@ But people use them anyways 🤷‍♂️.
 
 ## 3. Histogram analysis
 
-The histogram of an encrypted image should be flat. This signifies that all the pixel values are equiprobable.  
+The histogram of an encrypted image should be flat. This signifies that all the pixel values are equiprobable. Here is an example of histograms of a normal image and an encrypted image. In this case, I have taken Lena as the plain image and encrypted it with a one time pad scheme.
+
+|![](/images/LenaHistogram.jpg){:height="35%" width="35%"}|![](/images/lena_Encrypted_Histogram.jpg){:height="35%" width="35%"}|
+|:--:|:--:|
+|*Histogram of plain image*|*Histogram of encrypted image*|
 
 ## 4. Robustness
 
@@ -89,8 +93,8 @@ This metric indicates the resistance of the encryption technique to noise and at
 
 |![](/images/quarter_cropped.jpg){:height="35%" width="35%"}|![](/images/decrypted_cropped.jpg){:height="40%" width="40%"}|
 |:--:|:--:|
-|*Encrypted Image with 25% of the pixels removed*|Decryption of the incomplete image
+|*Encrypted Image with 25% of the pixels removed*|*Decryption of the incomplete image*|
 
 ## 5. Key space analysis
 
-This is probably the only metric that makes sense in this article. Key space analysis basically tells us the number of possible keys for a given encryption algorithm. 
+This is probably the only metric that makes sense in this article. Key space analysis basically tells us the number of possible keys for a given encryption algorithm. An important factor to consider here is that this metric is an analysis and the researcher must give a proof of the length of the key space for the given cipher. A larger key space would make the cipher more difficult to break.

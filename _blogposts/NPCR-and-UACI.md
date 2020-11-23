@@ -87,7 +87,7 @@ The histogram of an encrypted image should be flat. This signifies that all the 
 
 This metric indicates the resistance of the encryption technique to noise and attacks like cropping, shearing and rotating the encrypted image. This metric is usually shown by cropping a part of the encrypted image and the showing the decrypted image as given below.
 
-|![](/images/quarter_cropped.jpg){:height="35%" width="35%"}|![](/images/decrypted_cropped.jpg){:height="35%" width="35%"}|
+|![](/images/quarter_cropped.jpg){:height="35%" width="35%"}|![](/images/decrypted_cropped.jpg){:height="40%" width="40%"}|
 |:--:|:--:|
 |*Encrypted Image with 25% of the pixels removed*|Decryption of the incomplete image
 

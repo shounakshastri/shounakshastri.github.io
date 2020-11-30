@@ -2,7 +2,7 @@
 title: "Information Hiding-Steganography"
 collection: publications
 permalink: /publication/Information Hiding-Steganography
-excerpt: 'This publication contains a review of some popular steganography techniques. It was published as a book chapter.'
+excerpt: 'This is publication gives a review of some of the most popular steganography techniques being used in industry and academia. It was published as a book chapter.'
 date: 2016-10-19
 venue: 'Intelligent Techniques in Signal Processing for Multimedia Security, 65-91'
 paperurl: 'https://doi.org/10.1007/978-3-319-44790-2_4'

@@ -14,6 +14,6 @@ Hello, I am Shounak (pronounced as Sha-ooo-nak). I am a Researcher with a PhD in
 
 What did I do during my PhD?
 ===
-I analysed steganography algorithms, specifically Reversible Data Hiding (RDH) schemes and devised a new technique to hide secret data in image files. You can read about Steganography [here](https://shounakshastri.github.io/Steganography/) some of my work [here](https://shounakshastri.github.io/publications/). For a complete list of my publications, you can check my [ORCID page](https://orcid.org/0000-0002-2247-9046).
+I analysed legacy and state-of-the-art steganography algorithms, specifically Reversible Data Hiding (RDH) schemes and devised 2 novel techniques to hide secret data in image files. You can read about Steganography [here](https://shounakshastri.github.io/Steganography/) some of my work [here](https://shounakshastri.github.io/publications/). For a complete list of my publications, you can check my [ORCID page](https://orcid.org/0000-0002-2247-9046).
 
 I also served as a Teaching/Research Assistant for 4 years where I assisted several faculties and students with their coursework and projects. The details of my responsibilities during this period can be found [here](https://shounakshastri.github.io/teaching/).

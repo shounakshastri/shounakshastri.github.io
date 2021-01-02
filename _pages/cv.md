@@ -16,12 +16,12 @@ Education
 ======
 * B.E. in Electronics Engineering, K. J. Somaiya College of Engineering, Mumbai, 2012
 * M.Tech. in Communication, VIT Vellore, 2015
-* Ph.D. in Steganography Algorithms, VIT Vellore, 2020 (expected)
+* Ph.D. in Steganography Algorithms, VIT Vellore, December 2020.
   * Under the supervision of [Prof. Thanikaiselvan V.](https://scholar.google.co.in/citations?user=IIMHz3SEEqAC&hl=en)
 
 Work experience
 ======
-* Teaching and Research Assistant (Jan. 2016 - Jan. 2020) in School of Electronics Engineering, VIT Vellore.
+* Teaching and Research Assistant in School of Electronics Engineering, VIT Vellore. - Jan. 2016 - Jan. 2020 (4 years)
   
 Skills
 ======

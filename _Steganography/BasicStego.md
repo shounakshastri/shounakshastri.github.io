@@ -77,9 +77,9 @@ We will be discussing 3 basic techniques here.
 2. Histogram Shifting
 3. JPEG Steganography
 
-These techniques form the foundation of all the subsequent advances in Stego algorithms. The code in this segment is written in Matlab using the Image Processing Toolbox (IPT). I have seen that many people are more comfortable with Python. The closest alternative to IPT in Python is the [OpenCV package](https://pypi.org/project/opencv-python/). Most of the syntax and functions are the same but with a Python flavour. Such as `i = i + 1` in Matlab is `i += 1` in Python and `imread()` in Matlab becomes `cv2.imread()`. So, translating the code to python would probably not be too complicated. 
+These techniques form the foundation of all the subsequent advances in Stego algorithms. The code in this segment is written in Matlab using the Image Processing Toolbox (IPT). I have seen that many people are more comfortable with Python. The closest alternative to IPT in Python is the [OpenCV package](https://pypi.org/project/opencv-python/). Most of the syntax and functions are the same but with a Python flavour. Such as `i = i + 1` in Matlab is `i += 1` in Python and `imread()` in Matlab becomes `cv2.imread()`. So, translating the code to python should be quite straightforward.  
 
-Another thing to note at this point is, we will generate the secret data randomly using the internal randomizer of Matlab. The reason for this is we usually never embed the secret data directly in the cover image. It is always encrypted first. Because, we need to have a security measure in place to protect our data in case our steganography fails. So, we simulate this by generating random binary bits and use those as the secret data.
+Another thing to note at this point is, we will generate the secret data randomly using the internal randomizer of Matlab. The reason for this is we usually never embed the secret data directly in the cover image. It is always encrypted first. This is because we need to have a security measure in place to protect our data in case the steganography fails. So, we simulate this by generating random binary bits and use those as the secret data.
 
 ### LSB Replacement
 
@@ -106,7 +106,7 @@ end
 stg_img = reshape(steg_img, m, n) % Reshape the stego image to the original dimensions
 ```
 
-Higher LSB planes can be used if the size of the secret data is more. The secret data is extracted by simply extracting the LSBs of the stego image.
+Higher LSB planes can be used if the size of the secret data is more. The secret data is extracted by simply extracting the LSBs of the stego image. You might have noticed that the original LSBs have been discarded. Thus, the original image cannot be recovered. If it is important to recover the original image, then a separate file with the original LSBs has to be sent through a secure channel. But, this poses a question that breaks LSB replacement as a method with reversibility. The question is that, if there is a secure channel available which can send data to the receiver without leaking it to third parties, why should we bother to hide the data in the first place? We can directly send our secret data on the secure channel and be done with it. This is one of the main factors which has led to further research in LSB based data hiding techniques.
 
 ### Histogram shifting
 
@@ -116,7 +116,7 @@ In histogram shifting, the cover image histogram is analysed to locate bins whic
 |:--:|
 |*Histograms of cover and stego images*|
 
-From the above image, it can be seen that one of the peaks from the  original histogram has disappeared. This is where we have embedded hidden the data. 
+From the above image, it can be seen that one of the peaks from the  original histogram has disappeared. This is where we have embedded hidden the data. If you analyse the code, it will be evident that the number of bits that can be hidden in any given image are limited by the number of pixels corresponding to peaks and zeros in the histogram. It is possible that a cover image might not have any zeros at all. This is where the algorithm fails. You have to be careful about which image you choose as a cover. The image should have zero bins and enough pixels in the peaks to fully accommodate the secret data.
 
 One more thing to note here is that it is possible to recover the original cover image. Although it is not implemented in the code linked above, it is simple enough that anybody with a minimal coding experience can add the lines for recovery of the original image.
 

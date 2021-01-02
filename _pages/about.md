@@ -10,9 +10,7 @@ redirect_from:
 
 About Me
 ===
-Hello there.
-
-My name is Shounak (pronounced as Sha-ooo-nak). I am a Researcher with a PhD in steganography algorithms from VIT, Vellore . My doctoral work revolves around Steganography Algorithms where I have analysed and developed new steganography and watermarking schemes. My specialization is in the areas of Information Security (cryptography and steganography), Image Processing and Computer Vision. I am currently looking for jobs which need Research & Development (R&D) skills in the fields of Machine Learning (ML), Deep Learning (DL), Data Science and Artificial Intelligence (AI). 
+Hello, I am Shounak (pronounced as Sha-ooo-nak). I am a Researcher with a PhD in steganography algorithms from VIT, Vellore . My doctoral work revolves around Steganography Algorithms where I have analysed and developed new steganography and watermarking schemes. My specialization is in the areas of Information Security (cryptography and steganography), Image Processing and Computer Vision. I am currently looking for jobs which need Research & Development (R&D) skills in the fields of Machine Learning (ML), Deep Learning (DL), Data Science and Artificial Intelligence (AI). 
 
 What did I do during my PhD?
 ===

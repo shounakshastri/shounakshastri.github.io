@@ -56,7 +56,7 @@ NPCR and UACI are the metrics that have inspired this post. Most of the students
 NPCR and UACI are used to check the resistance of the encryption technique to differential attacks. Differential attacks tell us how changes in the plain text affect the cipher text. Thus, we can track if a minor change in the original pixel value propagates or gets amplified in the encrypted image. To calculate this metric, we need two images. 
 
 1. Original encrypted image
-2. Encrypted image generated after **toggling 1 LSB bit** in a random pixel of the original plain image. 
+2. Encrypted image generated after **toggling 1 LSB** in a random pixel of the original plain image. 
 
 If the two encrypted images are represented by $C_1$ and $C_2$. Then, the NPCR and UACI are calculated using the following equations
 
@@ -81,20 +81,20 @@ But people use them anyways 🤷‍♂️.
 
 ## 3. Histogram analysis
 
-The histogram of an encrypted image should be flat. This signifies that all the pixel values are equiprobable. Here is an example of histograms of a normal image and an encrypted image. In this case, I have taken Lena as the plain image and encrypted it with a one time pad scheme.
+The histogram of an encrypted image should be flat. This signifies that all the pixel values are equiprobable. Here is an example of histograms of a normal image and an encrypted image. In this case, I have taken Lena as the plain image and encrypted it with the one time pad scheme.
 
-|![](/images/LenaHistogram.jpg){:height="35%" width="35%"}|![](/images/lena_Encrypted_Histogram.jpg){:height="35%" width="35%"}|
+|![](/images/LenaHistogram.jpg){:height="45%" width="45%"}|![](/images/lena_Encrypted_Histogram.jpg){:height="45%" width="45%"}|
 |:--:|:--:|
 |*Histogram of plain image*|*Histogram of encrypted image*|
 
 ## 4. Robustness
 
-This metric indicates the resistance of the encryption technique to noise and attacks like cropping, shearing and rotating the encrypted image. This metric is usually shown by cropping a part of the encrypted image and the showing the decrypted image as given below.
+This metric indicates the resistance of the encryption technique to noise and attacks like cropping, shearing and rotating the encrypted image. This metric is usually shown by cropping a part of the encrypted image and the showing the decrypted image as given below. The idea here is to determine how much of the original image can be recovered if a malicious entity performs operations like cropping on the encrypted image. As seen in the figure below, the decrypted image is reasonably clear even after 25% of the encrypted pixels have been reset.
 
-|![](/images/quarter_cropped.jpg){:height="35%" width="35%"}|![](/images/decrypted_cropped.jpg){:height="40%" width="40%"}|
+|![](/images/quarter_cropped.jpg){:height="45%" width="45%"}|![](/images/decrypted_cropped.jpg){:height="45%" width="45%"}|
 |:--:|:--:|
 |*Encrypted Image with 25% of the pixels removed*|*Decryption of the incomplete image*|
 
 ## 5. Key space analysis
 
-This is probably the only metric that makes sense in this article. Key space analysis basically tells us the number of possible keys for a given encryption algorithm. An important factor to consider here is that this metric is an analysis and the researcher must give a proof of the length of the key space for the given cipher. A larger key space would make the cipher more difficult to break.
+ Key space analysis basically tells us the number of possible keys for a given encryption algorithm. An important factor to consider here is that this metric is an analysis and the researcher must give a proof of the length of the key space for the given cipher. A larger key space would make the cipher more difficult to break.

@@ -22,7 +22,7 @@ Part 1 - Figuring out the problem at hand
 
 [Part 4 - Deploying the model](https://shounakshastri.github.io/blogposts/Word%20Prediction%20Model%20-%20PART%204%20-%20Deploying%20the%20model)
 
-Part 5 - Lessons learnt
+[Part 5 - Lessons learnt](https://shounakshastri.github.io/blogposts/Word%20Prediction%20Model%20-%20PART%205%20-%20Lessons%20learnt)
 
 ---
 

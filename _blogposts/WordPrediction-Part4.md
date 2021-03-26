@@ -25,7 +25,7 @@ This post is the fourth in the series where we build a basic word prediction mod
 
 Part 4 - Deploying the model
 
-Part 5 - Lessons learnt
+[Part 5 - Lessons learnt](https://shounakshastri.github.io/blogposts/Word%20Prediction%20Model%20-%20PART%205%20-%20Lessons%20learnt)
 
 ---
 

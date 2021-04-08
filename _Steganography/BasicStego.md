@@ -18,7 +18,7 @@ date: 2020-10-15
 ## Introduction
 
 
-Steganography is used to <span style='color:green'>_hide_</span> data in some other data. Now, in order to understand Steganography, it is important to understand why we hide stuff? Well, we mostly hide stuff because we want it to be safe from others as people might take it or tamper it or even worse, tell everybody else about it. Now, we can hide stacks of cash in a mattress or a can of paint. But what if your stuff is not a stack of cash? What if your stuff is more...incorporeal? Like digital data? Hiding your data or files by creating a bunch of folders in a flash drive kept in your drawer might seem easy, but if someone gets the flash drive, a simple search query would reveal the location of the data. We need something more sophisticated than this.
+Steganography is used to <span style='color:green'>_hide_</span> data in some other data. Now, in order to understand Steganography, it is important to understand why we hide stuff? Well, we mostly hide stuff because we want it to be safe from others as people might take it or tamper it or even worse, tell everybody else about it. Now, we can hide stacks of cash in a mattress or a can of paint. But what if your stuff is not a stack of cash? What if your stuff is more...intangible? Like digital data? Hiding your data or files by creating a bunch of folders in a flash drive kept in your drawer might seem easy, but if someone gets the flash drive, a simple search query would reveal the location of the data. We need something more sophisticated than this.
 
 Enter Steganography.
 
